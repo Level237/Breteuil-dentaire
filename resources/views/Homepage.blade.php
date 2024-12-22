@@ -164,8 +164,8 @@ Homepage
             <div class="col-lg-12">
                 <!-- Section Title Start -->
                 <div class="section-title">
-                    <h3 class="wow fadeInUp">our services</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Hight Quality</span> Services for You.</h2>
+                    <h3 class="wow fadeInUp">Nos Services</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Des services de haute .</span>qualité pour vous</h2>
                     <p class="wow fadeInUp" data-wow-delay="0.25s">We are committed to sustainability. eco-friendly initiatives.</p>
                 </div>
                 <!-- Section Title End -->
