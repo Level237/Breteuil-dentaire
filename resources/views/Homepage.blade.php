@@ -13,7 +13,7 @@ Homepage
                 <div class="hero-content">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">Bienvenue à Breteuil Dentaire</h3>
+                        <h3 class="wow fadeInUp">Bienvenue au Cabinet dentaire Breteuil</h3>
                         <h1 class="text-anime-style-2" data-cursor="-opaque">Soins dentaire pour tous</h1>
 
                     </div>
@@ -136,10 +136,10 @@ Homepage
                     <!-- About Us Body Start -->
                     <div class="about-us-body wow fadeInUp" data-wow-delay="0.5s">
                         <ul>
-                            <li>experienced team</li>
-                            <li>comprehensive services</li>
-                            <li>state-of-the-art technology</li>
-                            <li>emergency dental services</li>
+                            <li>une équipe expérimentée</li>
+                            <li>une technologie de pointe</li>
+                            <li>des services complets</li>
+                            <li>services dentaires d'urgence</li>
                         </ul>
                     </div>
                     <!-- About Us Body End -->
@@ -173,86 +173,64 @@ Homepage
         </div>
 
         <div class="row">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <!-- Service Item Start -->
                 <div class="service-item wow fadeInUp">
                     <div class="icon-box">
                         <div class="img">
-                            <img src="images/icon-services-1.svg" alt="">
+                            <img src="{{ asset('assets/images/icon-services-1.svg') }}" alt="">
                         </div>
                     </div>
                     <div class="service-body">
-                        <h3>general dental care</h3>
-                        <p>We are excited to meet you and provide the best dental care for your family.</p>
+                        <h3>Implantologie dentaire</h3>
+                        <p>Les implants dentaires sont une solution à long terme qui permet de remplacer en toute sécurité une ou plusieurs dents</p>
                     </div>
-                    <div class="read-more-btn">
-                        <a href="#">read more</a>
-                    </div>
+
                 </div>
                 <!-- Service Item End -->
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <!-- Service Item Start -->
                 <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="icon-box">
                         <div class="img">
-                            <img src="images/icon-services-2.svg" alt="">
+                            <img src="{{ asset('assets/images/icon-services-2.svg') }}" alt="">
                         </div>
                     </div>
                     <div class="service-body">
-                        <h3>dental implants</h3>
-                        <p>We are excited to meet you and provide the best dental care for your family.</p>
+                        <h3>Dentisterie esthétique</h3>
+                        <p>Éclaircissement dentaire, Comblement des rides, Composites, Inlay-onlay, Facette céramique, Couronne céramique…</p>
                     </div>
-                    <div class="read-more-btn">
-                        <a href="#">read more</a>
-                    </div>
+
                 </div>
                 <!-- Service Item End -->
             </div>
 
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <!-- Service Item Start -->
                 <div class="service-item wow fadeInUp" data-wow-delay="0.5s">
                     <div class="icon-box">
                         <div class="img">
-                            <img src="images/icon-services-3.svg" alt="">
+                            <img src="{{ asset('assets/images/icon-services-3.svg') }}" alt="">
                         </div>
                     </div>
                     <div class="service-body">
-                        <h3>cosmetic dentistry</h3>
-                        <p>We are excited to meet you and provide the best dental care for your family.</p>
+                        <h3>Prothèses dentaires</h3>
+                        <p>
+                            Quelque soit le type de prothèse dentaire, il est nécessaire d’effectuer une empreinte dentaire et une prise de teinte….</p>
                     </div>
-                    <div class="read-more-btn">
-                        <a href="#">read more</a>
-                    </div>
+
                 </div>
                 <!-- Service Item End -->
             </div>
 
-            <div class="col-lg-3 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="0.75s">
-                    <div class="icon-box">
-                        <div class="img">
-                            <img src="images/icon-services-4.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="service-body">
-                        <h3>teeth whitening</h3>
-                        <p>We are excited to meet you and provide the best dental care for your family.</p>
-                    </div>
-                    <div class="read-more-btn">
-                        <a href="#">read more</a>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
+
 
             <div class="col-lg-12">
                 <!-- Service Box Footer Start -->
                 <div class="services-box-footer wow fadeInUp" data-wow-delay="1s">
-                    <p>We believe in using the latest technology and techniques to ensure the best outcomes for our patients.</p>
+                    <p>Nous croyons en l'utilisation des technologies et des techniques les plus récentes pour garantir les meilleurs résultats à nos patients.</p>
                     <a href="#" class="btn-default">view all service</a>
                 </div>
                 <!-- Service Box Footer End -->
@@ -271,14 +249,14 @@ Homepage
                         <div class="visit-clinic-content">
                             <!-- Section Title Start -->
                             <div class="section-title">
-                                <h3 class="wow fadeInUp">visit clinic</h3>
-                                <h2 class="text-anime-style-2" data-cursor="-opaque">Comprehensive Dental Care For All Ages</h2>
+                                <h3 class="wow fadeInUp">Visite du cabinet</h3>
+                                <h2 class="text-anime-style-2" data-cursor="-opaque">Nous accordons une grande importance à votre confort</h2>
                             </div>
                             <!-- Section Title End -->
 
                             <!-- Visit Clinic Btn Start -->
                             <div class="visit-clinic-btn wow fadeInUp" data-wow-delay="0.25s" data-cursor-text="Play">
-                                <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video play-btn">play video</a>
+                                <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video play-btn">Voir la galerie</a>
                             </div>
                             <!-- Visit Clinic Btn End -->
                         </div>
