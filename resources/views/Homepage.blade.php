@@ -368,8 +368,8 @@ Homepage
             <div class="col-lg-12">
                 <!-- Section Title Start -->
                 <div class="section-title">
-                    <h3 class="wow fadeInUp">why choose us</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Diagnosis of</span> Dental Diseases</h2>
+                    <h3 class="wow fadeInUp">Pourquoi nous choisir</h3>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Breteuil</span> Dentaire</h2>
                     <p class="wow fadeInUp" data-wow-delay="0.25s">We are committed to sustainability. eco-friendly initiatives.</p>
                 </div>
                 <!-- Section Title End -->
@@ -384,7 +384,7 @@ Homepage
                     <div class="why-choose-item wow fadeInUp">
                         <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="images/icon-why-us-1.svg" alt="">
+                            <img src="{{ asset('assets/images/icon-why-us-1.svg') }}" alt="">
                         </div>
                         <!-- Icon Box End -->
 
@@ -401,7 +401,7 @@ Homepage
                     <div class="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
                         <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="images/icon-why-us-2.svg" alt="">
+                            <img src="{{ asset('assets/images/icon-why-us-2.svg') }}" alt="">
                         </div>
                         <!-- Icon Box End -->
 
@@ -418,7 +418,7 @@ Homepage
                     <div class="why-choose-item wow fadeInUp" data-wow-delay="0.5s">
                         <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="images/icon-why-us-3.svg" alt="">
+                            <img src="{{ asset('assets/images/icon-why-us-3.svg') }}" alt="">
                         </div>
                         <!-- Icon Box End -->
 
@@ -438,7 +438,7 @@ Homepage
                 <!-- Why Choose Image Start -->
                 <div class="why-choose-image wow fadeInUp">
                     <figure>
-                        <img src="images/why-choose-us-img.png" alt="">
+                        <img src="{{ asset('assets/images/why-choose-us-img.png') }}" alt="">
                     </figure>
                 </div>
                 <!-- Why Choose Image End -->
@@ -451,7 +451,7 @@ Homepage
                     <div class="why-choose-item wow fadeInUp">
                         <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="images/icon-why-us-4.svg" alt="">
+                            <img src="{{ asset('assets/images/icon-why-us-4.svg') }}" alt="">
                         </div>
                         <!-- Icon Box End -->
 
@@ -468,7 +468,7 @@ Homepage
                     <div class="why-choose-item wow fadeInUp" data-wow-delay="0.25s">
                         <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="images/icon-why-us-5.svg" alt="">
+                            <img src="{{ asset('assets/images/icon-why-us-5.svg') }}" alt="">
                         </div>
                         <!-- Icon Box End -->
 
@@ -485,7 +485,7 @@ Homepage
                     <div class="why-choose-item wow fadeInUp" data-wow-delay="0.5s">
                         <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="images/icon-why-us-6.svg" alt="">
+                            <img src="{{ asset('assets/images/icon-why-us-6.svg') }}" alt="">
                         </div>
                         <!-- Icon Box End -->
 
@@ -511,530 +511,30 @@ Homepage
 <!-- Why Choose Us Section End -->
 
 <!-- How It Work Start -->
-<div class="how-it-work">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <!-- How It Work Image Start -->
-                <div class="how-it-work-img">
-                    <figure class="reveal image-anime">
-                        <img src="images/how-it-work-img.jpg" alt="">
-                    </figure>
-                </div>
-                <!-- How It Work Image End -->
-            </div>
 
-            <div class="col-lg-6">
-                <div class="how-it-work-content">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">how it work</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>What We Do</span> for Your Teeth</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">We are committed to sustainability. Our clinic practices eco-friendly initiatives like digital records to reduce paper waste and energy-efficient equipment.</p>
-                    </div>
-                    <!-- Section Title End -->
-
-                    <!-- How Work Accordion Start -->
-
-                    <!-- FAQ Accordion Start -->
-                    <div class="faq-accordion how-work-accordion" id="accordion">
-                        <!-- FAQ Item Start -->
-                        <div class="accordion-item wow fadeInUp">
-                            <div class="icon-box">
-                                <img src="images/icon-how-it-work-1.svg" alt="">
-                            </div>
-                            <h2 class="accordion-header" id="heading1">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                    book an appointment
-                                </button>
-                            </h2>
-                            <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
-                                <div class="accordion-body">
-                                    <p>The goal of our clinic is to provide friendly, caring dentistry and the highest level of general, cosmetic, ents.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FAQ Item End -->
-
-                        <!-- FAQ Item Start -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.25s">
-                            <div class="icon-box">
-                                <img src="images/icon-how-it-work-2.svg" alt="">
-                            </div>
-                            <h2 class="accordion-header" id="heading2">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                    What conditions can manual therapy treat?
-                                </button>
-                            </h2>
-                            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
-                                <div class="accordion-body">
-                                    <p>The goal of our clinic is to provide friendly, caring dentistry and the highest level of general, cosmetic, ents.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FAQ Item End -->
-
-                        <!-- FAQ Item Start -->
-                        <div class="accordion-item wow fadeInUp" data-wow-delay="0.5s">
-                            <div class="icon-box">
-                                <img src="images/icon-how-it-work-3.svg" alt="">
-                            </div>
-                            <h2 class="accordion-header" id="heading3">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                    expert care
-                                </button>
-                            </h2>
-                            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
-                                <div class="accordion-body">
-                                    <p>The goal of our clinic is to provide friendly, caring dentistry and the highest level of general, cosmetic, ents.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FAQ Item End -->
-                    </div>
-                    <!-- FAQ Accordion End -->
-                    <!-- How Work Accordion End -->
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <!-- How It Work End -->
 
 <!-- Our Team Start -->
-<div class="our-team">
-    <div class="container">
-        <div class="row section-row">
-            <div class="col-lg-12">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">our team</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Our Friendly</span> Dentists Team</h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.25s">We are committed to sustainability.  eco-friendly initiatives.</p>
-                </div>
-                <!-- Section Title End -->
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <!-- Team Member Item Start -->
-                <div class="team-member-item wow fadeInUp">
-                    <!-- Team Image Start -->
-                    <div class="team-image">
-                        <figure class="image-anime">
-                            <img src="images/team-1.jpg" alt="">
-                        </figure>
-
-                        <!-- Team Social Icon Start -->
-                        <div class="team-social-icon">
-                            <ul>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Team Social Icon End -->
-                    </div>
-                    <!-- Team Image End -->
-
-                    <!-- Team Content Start -->
-                    <div class="team-content">
-                        <h3>dr.johan joe</h3>
-                        <p>lead dentist</p>
-                    </div>
-                    <!-- Team Content End -->
-                </div>
-                <!-- Team Member Item End -->
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <!-- Team Member Item Start -->
-                <div class="team-member-item wow fadeInUp" data-wow-delay="0.25s">
-                    <!-- Team Image Start -->
-                    <div class="team-image">
-                        <figure class="image-anime">
-                            <img src="images/team-2.jpg" alt="">
-                        </figure>
-
-                        <!-- Team Social Icon Start -->
-                        <div class="team-social-icon">
-                            <ul>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Team Social Icon End -->
-                    </div>
-                    <!-- Team Image End -->
-
-                    <!-- Team Content Start -->
-                    <div class="team-content">
-                        <h3>dr.mike johnson</h3>
-                        <p>senior dantist</p>
-                    </div>
-                    <!-- Team Content End -->
-                </div>
-                <!-- Team Member Item End -->
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <!-- Team Member Item Start -->
-                <div class="team-member-item wow fadeInUp" data-wow-delay="0.5s">
-                    <!-- Team Image Start -->
-                    <div class="team-image">
-                        <figure class="image-anime">
-                            <img src="images/team-3.jpg" alt="">
-                        </figure>
-
-                        <!-- Team Social Icon Start -->
-                        <div class="team-social-icon">
-                            <ul>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Team Social Icon End -->
-                    </div>
-                    <!-- Team Image End -->
-
-                    <!-- Team Content Start -->
-                    <div class="team-content">
-                        <h3>dr. alison banson</h3>
-                        <p>orthodontist</p>
-                    </div>
-                    <!-- Team Content End -->
-                </div>
-                <!-- Team Member Item End -->
-            </div>
-
-            <div class="col-lg-3 col-md-6">
-                <!-- Team Member Item Start -->
-                <div class="team-member-item wow fadeInUp" data-wow-delay="0.75s">
-                    <!-- Team Image Start -->
-                    <div class="team-image">
-                        <figure class="image-anime">
-                            <img src="images/team-4.jpg" alt="">
-                        </figure>
-
-                        <!-- Team Social Icon Start -->
-                        <div class="team-social-icon">
-                            <ul>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                        <!-- Team Social Icon End -->
-                    </div>
-                    <!-- Team Image End -->
-
-                    <!-- Team Content Start -->
-                    <div class="team-content">
-                        <h3>dr.christopher case</h3>
-                        <p>periodontist</p>
-                    </div>
-                    <!-- Team Content End -->
-                </div>
-                <!-- Team Member Item End -->
-            </div>
-        </div>
-    </div>
-    <!-- Icon Start Image Start -->
-    <div class="icon-star-image">
-        <img src="images/icon-star.svg" alt="">
-    </div>
-    <!-- Icon Start Image End -->
-</div>
 <!-- Our Team End -->
 
-<!-- Our Testiminial Start -->
-<div class="our-testimonials">
-    <div class="container">
-        <div class="row section-row">
-            <div class="col-lg-12">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">testimonial</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque"><span>What our</span> Client Say</h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.25s">We are committed to sustainability.  eco-friendly initiatives.</p>
-                </div>
-                <!-- Section Title End -->
-            </div>
-        </div>
 
-        <div class="row align-items-center">
-            <div class="col-lg-5">
-                <!-- Testiminial Image Start -->
-                <div class="testimonial-image">
-                    <div class="testimonial-img">
-                        <figure class="reveal image-anime">
-                            <img src="images/testimonials-img.jpg" alt="">
-                        </figure>
-                    </div>
-
-                    <!-- Terstimonial Rating Box Start -->
-                    <div class="testimonial-rating-box">
-                        <!-- Counter Item Start -->
-                        <div class="rating-counter-item">
-                            <div class="rating-counter-number">
-                                <h3><span class="counter">4.7</span>/5</h3>
-                            </div>
-
-                            <div class="rating-counter-content">
-                                <p>This rate is given by user after visiting our location</p>
-                            </div>
-                        </div>
-                        <!-- Counter Item End -->
-
-                        <!-- Service Rating Start -->
-                        <div class="service-rating">
-                            <ul>
-                                <li>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </li>
-                                <li>for excellence services</li>
-                             </ul>
-                        </div>
-                        <!-- Service Rating End -->
-                    </div>
-                    <!-- Terstimonial Rating Box End -->
-                </div>
-                <!-- Testiminial Image End -->
-            </div>
-
-            <div class="col-lg-7">
-                <!-- Testimonial Slider Start -->
-                <div class="testimonial-slider">
-                    <div class="swiper">
-                        <div class="swiper-wrapper" data-cursor-text="Drag">
-                            <!-- Testimonial Slide Start -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-item">
-                                    <div class="testimonial-header">
-                                        <div class="testimonial-quote-image">
-                                            <img src="images/icon-testimonial-quote.svg" alt="">
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <p>"I want to say thank you to my doctor Steve! Vivamus sagittis massa vitae bibendum rhoncus. Duis cursus.” “Thank you for helping me overcome my fear of the dentist! Vivamus sagittis massa vitae bibendum rhoncus. Duis cursus."</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-body">
-                                        <div class="author-image">
-                                            <figure class="image-anime">
-                                                <img src="images/author-1.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="author-content">
-                                            <h3>robert lee</h3>
-                                            <p>software engineer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Testimonial Slide End -->
-
-                            <!-- Testimonial Slide Start -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-item">
-                                    <div class="testimonial-header">
-                                        <div class="testimonial-quote-image">
-                                            <img src="images/icon-testimonial-quote.svg" alt="">
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <p>"The best dental experience I've ever had! The team was professional and friendly, and the results were amazing. Highly recommend!"Dr. Smith and his staff are fantastic! They made me feel comfortable and at ease during my visit."</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-body">
-                                        <div class="author-image">
-                                            <figure class="image-anime">
-                                                <img src="images/author-2.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="author-content">
-                                            <h3>banson doe</h3>
-                                            <p>teacher</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Testimonial Slide End -->
-
-                            <!-- Testimonial Slide Start -->
-                            <div class="swiper-slide">
-                                <div class="testimonial-item">
-                                    <div class="testimonial-header">
-                                        <div class="testimonial-quote-image">
-                                            <img src="images/icon-testimonial-quote.svg" alt="">
-                                        </div>
-                                        <div class="testimonial-content">
-                                            <p>"Excellent service and care. The staff is knowledgeable and always willing to answer questions. I wouldn't go anywhere else for my dental needs.""From the moment I walked in, I felt welcomed and cared for. staff is exceptional."</p>
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-body">
-                                        <div class="author-image">
-                                            <figure class="image-anime">
-                                                <img src="images/author-3.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <div class="author-content">
-                                            <h3>thomas linda</h3>
-                                            <p>designer</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Testimonial Slide End -->
-                        </div>
-                        <div class="testimonial-btn">
-                            <div class="testimonial-button-prev"></div>
-                            <div class="testimonial-button-next"></div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Testimonial Slider End -->
-            </div>
-        </div>
-    </div>
-</div>
 <!-- Our Testiminial End -->
 
-<!-- Our Blog Start -->
- <div class="our-blog">
-    <div class="container">
-        <div class="row section-row">
-            <div class="col-lg-12">
-                 <!-- Section Title Start -->
-                 <div class="section-title">
-                    <h3 class="wow fadeInUp">blogs</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Check Our</span> Latest Articles</h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.25s">We are committed to sustainability.  eco-friendly initiatives.</p>
-                </div>
-                <!-- Section Title End -->
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <!-- Blog Item Start -->
-                <div class="blog-item wow fadeInUp">
-                    <!-- Post Featured Image Start-->
-                    <div class="post-featured-image" data-cursor-text="View">
-                        <figure>
-                            <a href="#" class="image-anime">
-                                <img src="images/post-1.jpg" alt="">
-                            </a>
-                        </figure>
-                    </div>
-                    <!-- Post Featured Image End -->
-
-                    <!-- post Item Body Start -->
-                    <div class="post-item-body">
-                        <h2><a href="#">The Importance of Regular Dental Check-Ups</a></h2>
-                        <p>Our waiting room features a variety of plants that help purify the air.</p>
-                    </div>
-                    <!-- Post Item Body End-->
-
-                    <!-- Post Item Footer Start-->
-                    <div class="post-item-footer">
-                        <a href="#" class="read-more-btn">read more</a>
-                    </div>
-                    <!-- Post Item Footer End-->
-                </div>
-                <!-- Blog Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Blog Item Start -->
-                <div class="blog-item wow fadeInUp" data-wow-delay="0.25s">
-                    <!-- Post Featured Image Start-->
-                    <div class="post-featured-image" data-cursor-text="View">
-                        <figure>
-                            <a href="#" class="image-anime">
-                                <img src="images/post-2.jpg" alt="">
-                            </a>
-                        </figure>
-                    </div>
-                    <!-- Post Featured Image End -->
-
-                    <!-- post Item Body Start -->
-                    <div class="post-item-body">
-                        <h2><a href="#">Top 5 Benefits of Professional Teeth Whitening</a></h2>
-                        <p>We believe in promoting health and wellness in every aspect of our clinic.</p>
-                    </div>
-                    <!-- Post Item Body End-->
-
-                    <!-- Post Item Footer Start-->
-                    <div class="post-item-footer">
-                        <a href="#" class="read-more-btn">read more</a>
-                    </div>
-                    <!-- Post Item Footer End-->
-                </div>
-                <!-- Blog Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Blog Item Start -->
-                <div class="blog-item wow fadeInUp" data-wow-delay="0.25s">
-                    <!-- Post Featured Image Start-->
-                    <div class="post-featured-image" data-cursor-text="View">
-                        <figure>
-                            <a href="#" class="image-anime">
-                                <img src="images/post-3.jpg" alt="">
-                            </a>
-                        </figure>
-                    </div>
-                    <!-- Post Featured Image End -->
-
-                    <!-- post Item Body Start -->
-                    <div class="post-item-body">
-                        <h2><a href="#">Understanding Dental Implants: What You Need to Know</a></h2>
-                        <p>Our clinic donates dental care services to underprivileged families.</p>
-                    </div>
-                    <!-- Post Item Body End-->
-
-                    <!-- Post Item Footer Start-->
-                    <div class="post-item-footer">
-                        <a href="#" class="read-more-btn">read more</a>
-                    </div>
-                    <!-- Post Item Footer End-->
-                </div>
-                <!-- Blog Item End -->
-            </div>
-        </div>
-    </div>
-    <!-- Icon Start Image Start -->
-    <div class="icon-star-image">
-        <img src="images/icon-star.svg" alt="">
-    </div>
-    <!-- Icon Start Image End -->
- </div>
-<!-- Our Blog End -->
 
 <!-- Footer Contact Us Start -->
  <div class="contact-now">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6">
-                <!-- Google Map Start -->
-                <div class="contact-google-map">
-                    <!-- Google Map Iframe Start -->
-                    <div class="google-map-iframe">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96737.10562045308!2d-74.08535042841811!3d40.739265258395164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1703158537552!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <!-- Google Map Iframe End -->
+                <!-- How It Work Image Start -->
+                <div class="how-it-work-img">
+                    <figure class="reveal image-anime">
+                        <img src="{{ asset('assets/images/how-it-work-img.jpg') }}" alt="">
+                    </figure>
                 </div>
-                <!-- Google Map End -->
+                <!-- How It Work Image End -->
             </div>
 
             <div class="col-lg-6">
