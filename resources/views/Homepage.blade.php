@@ -13,15 +13,15 @@ Homepage
                 <div class="hero-content">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">welcome to dentaire</h3>
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Dental Care for the Whole Family</h1>
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+                        <h3 class="wow fadeInUp">Bienvenue à Breteuil Dentaire</h3>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Soins dentaire pour tous</h1>
+
                     </div>
                     <!-- Section Title End -->
 
                     <!-- Hero Content Body Start -->
                     <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="#" class="btn-default">make an appointment</a>
+                        <a href="#" class="btn-default">Prendre un rendez-vous</a>
                     </div>
                     <!-- Hero Content Body End -->
 
@@ -59,8 +59,8 @@ Homepage
                         <img src="images/icon-cta-phone.svg" alt="">
                     </div>
                     <div class="cta-box-content">
-                        <h3>need dental services ?</h3>
-                        <p>Call on : (+01) 987 828 745</p>
+                        <h3>Besoin de services dentaire?</h3>
+                        <p>Contactez nous au : (+01) 987 828 745</p>
                     </div>
                 </div>
             </div>
@@ -73,8 +73,8 @@ Homepage
                         <img src="images/icon-cta-time.svg" alt="">
                     </div>
                     <div class="cta-box-content">
-                        <h3>opening hours</h3>
-                        <p>Mon to Sat 9:00AM to 9:00PM</p>
+                        <h3>Heures d'ouverture</h3>
+                        <p>Lundi à Vendredi 09h:00 à 19:00</p>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@ Homepage
             <div class="col-lg-4 col-md-12 col-12">
                 <!-- Cta Box Btn Start -->
                 <div class="cta-box-btn wow fadeInUp" data-wow-delay="0.5s">
-                    <a href="#" class="btn-default btn-highlighted">make an appointment</a>
+                    <a href="#" class="btn-default btn-highlighted">Contactez-nous</a>
                 </div>
                 <!-- Cta Box Btn End -->
             </div>
@@ -101,20 +101,20 @@ Homepage
                 <div class="about-image">
                     <div class="about-img-1">
                         <figure class="image-anime reveal">
-                            <img src="images/about-us-img-1.jpg" alt="">
+                            <img src="{{ asset('assets/images/about-us-img-1.jpg') }}" alt="">
                         </figure>
                     </div>
 
                     <div class="about-img-2">
                         <figure class="image-anime reveal">
-                            <img src="images/about-us-img-2.jpg" alt="">
+                            <img src="{{ asset('assets/images/about-us-img-2.jpg') }}" alt="">
                         </figure>
                     </div>
 
                     <!-- About Experience Circle Start -->
                     <div class="about-experience">
                         <figure>
-                            <img src="images/about-experience-circle.png" alt="">
+                            <img src="{{ asset('assets/images/about-experience-circle.png') }}" alt="">
                         </figure>
                     </div>
                     <!-- About Experience Circle End -->
@@ -127,9 +127,9 @@ Homepage
                 <div class="about-content">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">about us</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Your Journey</span> to a Healthier Smile Begins Here</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">The goal of our clinic is to provide friendly, caring dentistry and the highest level of general, cosmetic, and specialist dental treatments. With dental practices throughout the world.</p>
+                        <h3 class="wow fadeInUp">Tout savoir sur nous</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Votre voyage </span> vers un sourire plus sain commence ici</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.25s">L'objectif de notre clinique est d'offrir une dentisterie amicale et attentionnée ainsi que des traitements dentaires généraux, cosmétiques et spécialisés du plus haut niveau.</p>
                     </div>
                     <!-- Section Title End -->
 
@@ -146,7 +146,7 @@ Homepage
 
                     <!-- About Us Footer Start -->
                     <div class="about-us-footer wow fadeInUp" data-wow-delay="0.75s">
-                        <a href="#" class="btn-default">read more about us</a>
+                        <a href="#" class="btn-default">Notre Equipe</a>
                     </div>
                     <!-- About Us Footer End -->
                 </div>
