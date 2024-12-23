@@ -14,7 +14,7 @@
                     <nav class="wow fadeInUp">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="{{ route('homepage') }}" style="color:#8b8b8b">home</a></li>
-                            <li class="breadcrumb-item active text-white" aria-current="page">techonology</li>
+                            <li class="breadcrumb-item active text-white" aria-current="page">Urgences dentaires</li>
                         </ol>
                     </nav>
                 </div>
@@ -57,7 +57,7 @@
                 <div class="techonology-content">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">Pourquoi nous en cas d'</h3>
+                        <h3 class="wow fadeInUp">Nous choisir en cas d'urgence dentaire</h3>
                         <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Urgences </span>dentaires</h2>
                         <p class="wow fadeInUp" data-wow-delay="0.25s">Parce que c’est bien connu, les douleurs bucco-dentaires sont parmi les plus insupportables, nous nous organisons quotidiennement, pour prendre en charge les urgences douloureuses et fonctionnelles.</p>
                     </div>

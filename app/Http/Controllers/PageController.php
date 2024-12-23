@@ -10,4 +10,8 @@ class PageController extends Controller
 
         return view('urgence');
     }
+
+    public function protese(){
+        return view('protese');
+    }
 }
