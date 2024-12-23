@@ -166,7 +166,7 @@ Homepage
                 <div class="section-title">
                     <h3 class="wow fadeInUp">Nos Services</h3>
                     <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Des services de haute .</span>qualité pour vous</h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.25s">We are committed to sustainability. eco-friendly initiatives.</p>
+                    <p class="wow fadeInUp" data-wow-delay="0.25s">Nous nous engageons en faveur du développement durable et des initiatives respectueuses de l'environnement.</p>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -370,7 +370,7 @@ Homepage
                 <div class="section-title">
                     <h3 class="wow fadeInUp">Pourquoi nous choisir</h3>
                     <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Breteuil</span> Dentaire</h2>
-                    <p class="wow fadeInUp" data-wow-delay="0.25s">We are committed to sustainability. eco-friendly initiatives.</p>
+                    <p class="wow fadeInUp" data-wow-delay="0.25s">Nos activités portent essentiellement sur l’urgence dentaire, les prothèses dentaires, l’implantologie, l’esthétique et la dentisterie numérique. </p>
                 </div>
                 <!-- Section Title End -->
             </div>
@@ -390,8 +390,8 @@ Homepage
 
                         <!-- Why Choose Content Start -->
                         <div class="why-choose-content">
-                            <h3>experienced doctor</h3>
-                            <p>The goal of our clinic is to provide friendly, caring dentistry and the.</p>
+                            <h3>médecin expérimenté</h3>
+
                         </div>
                         <!-- Why Choose Content End -->
                     </div>
@@ -407,8 +407,8 @@ Homepage
 
                         <!-- Why Choose Content Start -->
                         <div class="why-choose-content">
-                            <h3>personalized care</h3>
-                            <p>The goal of our clinic is to provide friendly, caring dentistry and the.</p>
+                            <h3>soins personnalisés</h3>
+
                         </div>
                         <!-- Why Choose Content End -->
                     </div>
@@ -424,8 +424,8 @@ Homepage
 
                         <!-- Why Choose Content Start -->
                         <div class="why-choose-content">
-                            <h3>flexible payment options</h3>
-                            <p>The goal of our clinic is to provide friendly, caring dentistry and the.</p>
+                            <h3>Options de paiement flexibles</h3>
+
                         </div>
                         <!-- Why Choose Content End -->
                     </div>
@@ -457,8 +457,8 @@ Homepage
 
                         <!-- Why Choose Content Start -->
                         <div class="why-choose-content">
-                            <h3>emergency services</h3>
-                            <p>The goal of our clinic is to provide friendly, caring dentistry and the.</p>
+                            <h3>Services d'urgence</h3>
+
                         </div>
                         <!-- Why Choose Content End -->
                     </div>
@@ -474,8 +474,8 @@ Homepage
 
                         <!-- Why Choose Content Start -->
                         <div class="why-choose-content">
-                            <h3>positive patient reviews</h3>
-                            <p>The goal of our clinic is to provide friendly, caring dentistry and the.</p>
+                            <h3>Avis positifs de patients</h3>
+
                         </div>
                         <!-- Why Choose Content End -->
                     </div>
@@ -491,8 +491,8 @@ Homepage
 
                         <!-- Why Choose Content Start -->
                         <div class="why-choose-content">
-                            <h3>latest technology</h3>
-                            <p>The goal of our clinic is to provide friendly, caring dentistry and the.</p>
+                            <h3>Dernières technologies</h3>
+
                         </div>
                         <!-- Why Choose Content End -->
                     </div>
