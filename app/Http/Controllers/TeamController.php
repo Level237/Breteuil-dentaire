@@ -10,4 +10,9 @@ class TeamController extends Controller
     {
         return view('our-team');
     }
+
+    public function dassie(){
+
+        return view('dassie');
+    }
 }
