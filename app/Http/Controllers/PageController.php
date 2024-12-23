@@ -19,4 +19,9 @@ class PageController extends Controller
 
         return view('implant-dentaire');
     }
+
+    public function oneDent(){
+
+        return view('remplacer-une-dent');
+    }
 }

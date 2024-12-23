@@ -24,4 +24,5 @@ Route::get('/le-cabinet/visite-cabinet',[GaleryController::class,'index'])->name
 Route::get('/urgence-dentaire',[PageController::class,'urgence'])->name('urgence-dentaire');
 Route::get('/protheses-dentaires',[PageController::class,'protese'])->name('proteses-dentaires');
 Route::get('implant-dentaire',[PageController::class,'implant'])->name('implant-dentaire');
+Route::get('remplacer-dent',[PageController::class,'oneDent'])->name('remplacer-dent');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');
