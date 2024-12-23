@@ -543,8 +543,8 @@ Homepage
                 <div class="contact-now-content">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">contact now</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Get Free</span> Professional Consultation</h2>
+                        <h3 class="wow fadeInUp">contactez nous</h3>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Obtenir une consultation</span>professionnelle gratuite</h2>
                     </div>
                     <!-- Section Title End -->
 
@@ -554,13 +554,13 @@ Homepage
                         <div class="contact-info-list wow fadeInUp" data-wow-delay="0.2s">
                             <!-- Icon Box Start -->
                             <div class="icon-box">
-                                <img src="images/icon-location.svg" alt="">
+                                <img src="{{ asset('assets/images/icon-location.svg') }}" alt="">
                             </div>
                             <!-- Icon Box End -->
 
                             <!-- Contact Info Content Start -->
                             <div class="contact-info-content">
-                                <p>24/11 Robert Road , New York , USA</p>
+                                <p>5 bis rue Tassart , Abbaye de Breteuil , FRANCE</p>
                             </div>
                             <!-- Contact Info Content End -->
                         </div>
@@ -570,13 +570,13 @@ Homepage
                         <div class="contact-info-list wow fadeInUp" data-wow-delay="0.4s">
                             <!-- Icon Box Start -->
                             <div class="icon-box">
-                                <img src="images/icon-phone.svg" alt="">
+                                <img src="{{ asset('assets/images/icon-phone.svg') }}" alt="">
                             </div>
                             <!-- Icon Box End -->
 
                             <!-- Contact Info Content Start -->
                             <div class="contact-info-content">
-                                <p>+(123) 698-5245</p>
+                                <p>03 65 65 75 75</p>
                             </div>
                             <!-- Contact Info Content End -->
                         </div>
@@ -586,7 +586,7 @@ Homepage
                         <div class="contact-info-list wow fadeInUp" data-wow-delay="0.6s">
                             <!-- Icon Box Start -->
                             <div class="icon-box">
-                                <img src="images/icon-mail.svg" alt="">
+                                <img src="{{ asset('assets/images/icon-mail.svg') }}" alt="">
                             </div>
                             <!-- Icon Box End -->
 
@@ -602,13 +602,13 @@ Homepage
                         <div class="contact-info-list wow fadeInUp" data-wow-delay="0.8s">
                             <!-- Icon Box Start -->
                             <div class="icon-box">
-                                <img src="images/icon-clock.svg" alt="">
+                                <img src="{{ asset('assets/images/icon-clock.svg') }}" alt="">
                             </div>
                             <!-- Icon Box End -->
 
                             <!-- Contact Info Content Start -->
                             <div class="contact-info-content">
-                                <p>Mon to Sat 9:00AM to 9:00PM</p>
+                                <p>Lundi à Vendredi 09h:00 à 19h</p>
                             </div>
                             <!-- Contact Info Content End -->
                         </div>
@@ -617,7 +617,7 @@ Homepage
 
                     <!-- Footer Appointment Button Start  -->
                     <div class="contact-appointment-btn wow fadeInUp" data-wow-delay="1s">
-                        <a href="#" class="btn-default">make an appointment</a>
+                        <a href="#" class="btn-default">Prendre un rendez-vous</a>
                     </div>
                     <!-- Footer Appointment Button End  -->
                 </div>
