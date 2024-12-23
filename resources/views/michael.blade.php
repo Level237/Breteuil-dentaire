@@ -5,13 +5,13 @@
 @endsection
 
 @section("main")
-<div class="page-header" style="background-image: url({{ asset('assets/images/Dr-Fabrice-Dassie-dark.png') }});background-size:cover;height:100%">
+<div class="page-header" style="background-image: url({{ asset('assets/images/Dr-Mickael-dark.png') }});background-size:cover;height:100%;background-position:top">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <!-- Page Header Box Start -->
                 <div class="page-header-box">
-                    <h1 class="text-anime-style-2" data-cursor="-opaque">Dr.Fabrice Dassie</h1>
+                    <h1 class="text-anime-style-2" data-cursor="-opaque">Dr.Mickael Aboulker</h1>
                     <nav class="wow fadeInUp">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="team-single.html" style="color:#8b8b8b">home</a></li>
@@ -35,7 +35,7 @@
                 <!-- team member image start -->
                 <div class="team-member-image">
                     <figure class="image-anime">
-                        <img src="{{ asset('assets/images/Dr-Fabrice-Dassie.png') }}" alt="Fabrice Dassie">
+                        <img src="{{ asset('assets/images/Dr-Mickael.png') }}" alt="Mickael Aboulker">
                     </figure>
                 </div>
                 <!-- team member image end -->
@@ -44,16 +44,17 @@
                 <!-- team member details start -->
                 <div class="team-member-details">
                     <div class="member-detail-header">
-                        <h2 class="text-anime-style-2">Dr.Fabrice Dassie</h2>
+                        <h2 class="text-anime-style-2">Dr.Mickael Aboulker</h2>
                         <p class="wow fadeInUp">Docteur en chirurgie-dentaire</p>
                     </div>
 
 
                     <div class="member-detail-body wow fadeInUp" data-wow-delay="0.5s">
                         <ul>
-                            <li>Diplôme universitaire d’implantologie Orale et Esthétique - université d’Evry</li>
-                            <li>Certificat d’études supérieures de Parodontologie - Paris V</li>
-                            <li>Certificat d’études supérieures de Prothèses fixes - Paris V</li>
+                            <li>Certificat Hospitalier d’Implantologie et de Chirurgie Pré/Péri Implantaire de l’Hôpital St – Antoine – Paris VI</li>
+                            <li>Diplôme Universitaire de Chirurgie Pré et Péri Implantaire – Paris XI</li>
+                            <li>
+                                Diplôme inter-universitaire de reconstruction osseuse implantaire de l'hôpital pitié Salpêtrière</li>
 
                         </ul>
                     </div>

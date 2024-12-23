@@ -17,4 +17,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/le-cabinet/notre-equipe',[TeamController::class,'teamList'])->name('team');
 Route::get('/le-cabinet/docteur-dassie-fabrice',[TeamController::class,'dassie'])->name('team.dassie');
+Route::get('/le-cabinet/docteur-aboulker-mickael',[TeamController::class,'michael'])->name('team.michael');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');

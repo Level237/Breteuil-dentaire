@@ -15,4 +15,9 @@ class TeamController extends Controller
 
         return view('dassie');
     }
+
+    public function michael(){
+
+        return view('michael');
+    }
 }
