@@ -14,4 +14,9 @@ class PageController extends Controller
     public function protese(){
         return view('protese');
     }
+
+    public function implant(){
+
+        return view('implant-dentaire');
+    }
 }

@@ -23,4 +23,5 @@ Route::get('/le-cabinet/docteur-aboulker-mickael',[TeamController::class,'michae
 Route::get('/le-cabinet/visite-cabinet',[GaleryController::class,'index'])->name('visite-cabinet');
 Route::get('/urgence-dentaire',[PageController::class,'urgence'])->name('urgence-dentaire');
 Route::get('/protheses-dentaires',[PageController::class,'protese'])->name('proteses-dentaires');
+Route::get('implant-dentaire',[PageController::class,'implant'])->name('implant-dentaire');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');
