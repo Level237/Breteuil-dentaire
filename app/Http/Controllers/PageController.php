@@ -33,4 +33,9 @@ class PageController extends Controller
 
         return view('remplacer-toute-ces-dents');
     }
+
+    public function chirugie(){
+
+        return view('chirugie-preimplantaire');
+    }
 }
