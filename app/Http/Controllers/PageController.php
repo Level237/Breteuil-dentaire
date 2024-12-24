@@ -38,4 +38,9 @@ class PageController extends Controller
 
         return view('chirugie-preimplantaire');
     }
+
+    public function conseils(){
+
+        return view("conseil-post-operatoire");
+    }
 }

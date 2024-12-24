@@ -28,4 +28,5 @@ Route::get('remplacer-dent',[PageController::class,'oneDent'])->name('remplacer-
 Route::get('remplacer-plusieurs-dents',[PageController::class,'moreDent'])->name('remplacer-plusieurs-dents');
 Route::get('remplacer-toutes-ces-dents',[PageController::class,'allDent'])->name('remplacer-toutes-dents');
 Route::get('chirurgie-pre-implantaire',[PageController::class,'chirugie'])->name('chirurgie-pre-implantaire');
+Route::get('conseils-post-operatiores',[PageController::class,'conseils'])->name('conseils');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');
