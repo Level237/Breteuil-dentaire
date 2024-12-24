@@ -25,4 +25,5 @@ Route::get('/urgence-dentaire',[PageController::class,'urgence'])->name('urgence
 Route::get('/protheses-dentaires',[PageController::class,'protese'])->name('proteses-dentaires');
 Route::get('implant-dentaire',[PageController::class,'implant'])->name('implant-dentaire');
 Route::get('remplacer-dent',[PageController::class,'oneDent'])->name('remplacer-dent');
+Route::get('remplacer-plusieurs-dents',[PageController::class,'moreDent'])->name('remplacer-plusieurs-dents');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');

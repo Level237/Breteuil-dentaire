@@ -24,4 +24,8 @@ class PageController extends Controller
 
         return view('remplacer-une-dent');
     }
+    public function moreDent(){
+
+        return view('remplacer-plusieurs-dent');
+    }
 }
