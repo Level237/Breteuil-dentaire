@@ -63,4 +63,9 @@ class PageController extends Controller
 
         return view('facette-dentaire');
     }
+
+    public function facettePelliculaire(){
+
+        return view('facette-pelliculaire');
+    }
 }
