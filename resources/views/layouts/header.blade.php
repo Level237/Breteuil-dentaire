@@ -41,9 +41,9 @@
                                     <li class="nav-item"><a class="nav-link" href="{{ route('facette-pelliculaire') }}">Facette pelliculaire</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a style="font-size: 14px" class="nav-link" href="service.html">Dentisterie numérique</a></li>
+                            <li class="nav-item"><a style="font-size: 14px" class="nav-link" href="{{ route('dentisterie-numerique') }}">Dentisterie numérique</a></li>
 
-                            <li class="nav-item highlighted-menu"><a class="nav-link" href="appointment.html">book appointment</a></li>
+                            <li class="nav-item highlighted-menu"><a class="nav-link" href="appointment.html">Prendre un rendez-vous</a></li>
                         </ul>
                     </div>
                     <!-- Let’s Start Button Start -->
