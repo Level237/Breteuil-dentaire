@@ -530,9 +530,9 @@ Homepage
             <div class="col-lg-6">
                 <!-- How It Work Image Start -->
                 <div class="how-it-work-img">
-                    <figure class="reveal image-anime">
-                        <img src="{{ asset('assets/images/how-it-work-img.jpg') }}" alt="">
-                    </figure>
+                    <div class="google-map-iframe">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2584.2532807672974!2d2.2936805757851797!3d49.63068077144725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7a2ff056390f3%3A0x12a1c5ad36db7e1c!2s5%20bis%20Rue%20Tassart%2C%2060120%20Breteuil%2C%20France!5e0!3m2!1sfr!2scm!4v1735156150881!5m2!1sfr!2scm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
                 <!-- How It Work Image End -->
             </div>

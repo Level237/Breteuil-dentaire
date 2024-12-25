@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\GaleryController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PageController;
@@ -35,4 +36,5 @@ Route::get('esthetique-sourire',[PageController::class,'esthetique'])->name('est
 Route::get('facette-dentaire',[PageController::class,'facette'])->name('facette-dentaire');
 Route::get('facette-pelliculaire',[PageController::class,'facettePelliculaire'])->name('facette-pelliculaire');
 Route::get('dentisterie-numerique',[PageController::class,'dentisterie'])->name('dentisterie-numerique');
+Route::get('contact',[ContactController::class,'contactView'])->name('contact.view');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');
