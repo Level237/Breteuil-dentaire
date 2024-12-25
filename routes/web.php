@@ -37,4 +37,5 @@ Route::get('facette-dentaire',[PageController::class,'facette'])->name('facette-
 Route::get('facette-pelliculaire',[PageController::class,'facettePelliculaire'])->name('facette-pelliculaire');
 Route::get('dentisterie-numerique',[PageController::class,'dentisterie'])->name('dentisterie-numerique');
 Route::get('contact',[ContactController::class,'contactView'])->name('contact.view');
+Route::post('contact',[ContactController::class,'send'])->name('send.contact');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');
