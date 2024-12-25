@@ -48,4 +48,9 @@ class PageController extends Controller
 
         return view('faqs');
     }
+
+    public function eclair(){
+
+        return view('eclaircissement');
+    }
 }

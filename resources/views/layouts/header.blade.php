@@ -30,12 +30,12 @@
                                     <li class="nav-item"><a class="nav-link" href="{{ route('remplacer-toutes-dents') }}">Remplacer toute les dents</a></li>
                                     <li class="nav-item"><a class="nav-link" href="{{ route('chirurgie-pre-implantaire') }}">Chirugie pré-implantaire</a></li>
                                     <li class="nav-item"><a class="nav-link" href="{{ route('conseils') }}">Conseils Post-Opératoire</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="faqs.html">FAQ</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('faq') }}">FAQ</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item submenu"><a style="font-size: 14px" class="nav-link" href="#">Esthétique</a>
                                 <ul>
-                                    <li class="nav-item"><a class="nav-link" href="service-single.html">Eclaircissement dentaire</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('eclaircissement') }}">Eclaircissement dentaire</a></li>
                                     <li class="nav-item"><a class="nav-link" href="blog.html">Eclaircissement du sourire</a></li>
                                     <li class="nav-item"><a class="nav-link" href="blog-single.html">Facette dentaire</a></li>
                                     <li class="nav-item"><a class="nav-link" href="team.html">Facette pelliculaire</a></li>
