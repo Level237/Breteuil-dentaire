@@ -31,4 +31,5 @@ Route::get('chirurgie-pre-implantaire',[PageController::class,'chirugie'])->name
 Route::get('conseils-post-operatiores',[PageController::class,'conseils'])->name('conseils');
 Route::get('faq',[PageController::class,'faq'])->name('faq');
 Route::get('eclaircissement-dentaire',[PageController::class,'eclair'])->name('eclaircissement');
+Route::get('esthetique-sourire',[PageController::class,'esthetique'])->name('esthetique.sourire');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');

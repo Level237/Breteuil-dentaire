@@ -53,4 +53,9 @@ class PageController extends Controller
 
         return view('eclaircissement');
     }
+
+    public function esthetique(){
+
+        return view('eclaircissement-sourire');
+    }
 }
