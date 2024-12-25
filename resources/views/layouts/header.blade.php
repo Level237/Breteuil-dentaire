@@ -14,24 +14,22 @@
                         <ul class="navbar-nav mr-auto" id="menu">
                             <li class="nav-item submenu" ><a class="nav-link" style="font-size: 14px" href="index-3.html">Le Cabinet</a>
                                 <ul class="sub-menu">
-                                    <li class="nav-item"><a class="nav-link" href="index.html">Notre Equipe</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="index-2.html">Dr Fabrice DASSIE</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="index-3.html">Dr Mickael ABOULKER</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="index-4.html">Visite du Cabinet</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('team') }}">Notre Equipe</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('team.dassie') }}">Dr Fabrice DASSIE</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('team.michael') }}">Dr Mickael ABOULKER</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('visite-cabinet') }}">Visite du Cabinet</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a style="font-size: 14px" class="nav-link" href="about.html">Urgences dentaires</a></li>
-                            <li class="nav-item"><a style="font-size: 14px" class="nav-link" href="service.html">Prothèses dentaires</a></li>
+                            <li class="nav-item"><a style="font-size: 14px" class="nav-link" href="{{ route('urgence-dentaire') }}">Urgences dentaires</a></li>
+                            <li class="nav-item"><a style="font-size: 14px" class="nav-link" href="{{ route('proteses-dentaires') }}">Prothèses dentaires</a></li>
                             <li class="nav-item submenu"><a style="font-size: 14px" class="nav-link" href="#">Implantologie</a>
                                 <ul>
-                                    <li class="nav-item"><a class="nav-link" href="service-single.html">Implant dentaire</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="blog.html">Remplacer une dent</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="blog-single.html">Remplacer plusieurs dents</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="team.html">Remplacer toute les dents</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="team-single.html">Chirugie pré-implantaire</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="gallery.html">Conseils Post-Opératoire</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="technology.html">Technology</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="testimonials.html">testimonials</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('implant-dentaire') }}">Implant dentaire</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('remplacer-dent') }}">Remplacer une dent</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('remplacer-plusieurs-dents') }}">Remplacer plusieurs dents</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('remplacer-toutes-dents') }}">Remplacer toute les dents</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('chirurgie-pre-implantaire') }}">Chirugie pré-implantaire</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('conseils') }}">Conseils Post-Opératoire</a></li>
                                     <li class="nav-item"><a class="nav-link" href="faqs.html">FAQ</a></li>
                                 </ul>
                             </li>
