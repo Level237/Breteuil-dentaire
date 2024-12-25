@@ -32,4 +32,5 @@ Route::get('conseils-post-operatiores',[PageController::class,'conseils'])->name
 Route::get('faq',[PageController::class,'faq'])->name('faq');
 Route::get('eclaircissement-dentaire',[PageController::class,'eclair'])->name('eclaircissement');
 Route::get('esthetique-sourire',[PageController::class,'esthetique'])->name('esthetique.sourire');
+Route::get('facette-dentaire',[PageController::class,'facette'])->name('facette-dentaire');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');

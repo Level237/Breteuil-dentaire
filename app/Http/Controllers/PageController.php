@@ -58,4 +58,9 @@ class PageController extends Controller
 
         return view('eclaircissement-sourire');
     }
+
+    public function facette(){
+
+        return view('facette-dentaire');
+    }
 }
