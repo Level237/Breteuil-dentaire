@@ -34,4 +34,5 @@ Route::get('eclaircissement-dentaire',[PageController::class,'eclair'])->name('e
 Route::get('esthetique-sourire',[PageController::class,'esthetique'])->name('esthetique.sourire');
 Route::get('facette-dentaire',[PageController::class,'facette'])->name('facette-dentaire');
 Route::get('facette-pelliculaire',[PageController::class,'facettePelliculaire'])->name('facette-pelliculaire');
+Route::get('dentisterie-numerique',[PageController::class,'dentisterie'])->name('dentisterie-numerique');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');
