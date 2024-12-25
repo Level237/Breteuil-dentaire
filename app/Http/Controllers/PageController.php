@@ -43,4 +43,9 @@ class PageController extends Controller
 
         return view("conseil-post-operatoire");
     }
+
+    public function faq(){
+
+        return view('faqs');
+    }
 }
