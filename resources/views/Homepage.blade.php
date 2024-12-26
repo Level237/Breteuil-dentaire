@@ -230,7 +230,7 @@ Homepage
                 <!-- Service Box Footer Start -->
                 <div class="services-box-footer wow fadeInUp" data-wow-delay="1s">
                     <p>Nous croyons en l'utilisation des technologies et des techniques les plus récentes pour garantir les meilleurs résultats à nos patients.</p>
-                    <a href="#" class="btn-default">view all service</a>
+                    <a href="#" class="btn-default">Voir tout nos services</a>
                 </div>
                 <!-- Service Box Footer End -->
             </div>
@@ -275,15 +275,13 @@ Homepage
                     <div class="counter-item">
                         <!-- Counter Title Start -->
                         <div class="counter-title">
-                            <h2><span class="counter">75</span>+</h2>
-                            <h3>insurance covered</h3>
+                            <h2><span class="counter">8</span>+</h2>
+                            <h3>Services professionnels</h3>
                         </div>
                         <!-- Counter Title End -->
 
                         <!-- Counter Content Start -->
-                        <div class="counter-content">
-                            <p>Our team loves dental trivia. Did you know that tooth enamel.</p>
-                        </div>
+
                         <!-- Counter Content End -->
                     </div>
                     <!-- Counter Item End -->
@@ -294,15 +292,13 @@ Homepage
                     <div class="counter-item">
                         <!-- Counter Title Start -->
                         <div class="counter-title">
-                            <h2><span class="counter">02</span>K</h2>
-                            <h3>realized projects</h3>
+                            <h2><span class="counter">01</span>K</h2>
+                            <h3>Consultations</h3>
                         </div>
                         <!-- Counter Title End -->
 
                         <!-- Counter Content Start -->
-                        <div class="counter-content">
-                            <p>Our team loves dental trivia. Did you know that tooth enamel.</p>
-                        </div>
+
                         <!-- Counter Content End -->
                     </div>
                     <!-- Counter Item End -->
@@ -313,15 +309,13 @@ Homepage
                     <div class="counter-item">
                         <!-- Counter Title Start -->
                         <div class="counter-title">
-                            <h2><span class="counter">22</span>K</h2>
-                            <h3>happy customers</h3>
+                            <h2><span class="counter">1</span>K</h2>
+                            <h3>Clients Satisfaits</h3>
                         </div>
                         <!-- Counter Title End -->
 
                         <!-- Counter Content Start -->
-                        <div class="counter-content">
-                            <p>Our team loves dental trivia. Did you know that tooth enamel.</p>
-                        </div>
+
                         <!-- Counter Content End -->
                     </div>
                     <!-- Counter Item End -->
@@ -333,14 +327,12 @@ Homepage
                         <!-- Counter Title Start -->
                         <div class="counter-title">
                             <h2><span class="counter">18</span>+</h2>
-                            <h3>experience doctors</h3>
+                            <h3>Docteurs experimentés</h3>
                         </div>
                         <!-- Counter Title End -->
 
                         <!-- Counter Content Start -->
-                        <div class="counter-content">
-                            <p>Our team loves dental trivia. Did you know that tooth enamel.</p>
-                        </div>
+
                         <!-- Counter Content End -->
                     </div>
                     <!-- Counter Item End -->
