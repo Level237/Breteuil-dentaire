@@ -38,24 +38,23 @@
             </div>
             <div class="col-lg-4 col-md-6">
                 <!-- Team Member Item Start -->
+
                 <div class="team-member-item wow fadeInUp">
                     <!-- Team Image Start -->
-                    <div class="team-image">
-                        <figure class="image-anime">
-                            <img src="{{ asset('assets/images/Dr-Fabrice-Dassie.png') }}" alt="">
-                        </figure>
+                    <a href="{{ route('team.dassie') }}">
+                        <div class="team-image">
+                            <figure class="image-anime">
+                                <img src="{{ asset('assets/images/Dr-Fabrice-Dassie.png') }}" alt="">
+                            </figure>
 
-                        <!-- Team Social Icon Start -->
-                        <div class="team-social-icon">
-                            <ul>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            </ul>
+                            <!-- Team Social Icon Start -->
+                            <div class="team-social-icon">
+
+                            </div>
+                            <!-- Team Social Icon End -->
                         </div>
-                        <!-- Team Social Icon End -->
-                    </div>
+                    </a>
+
                     <!-- Team Image End -->
 
                     <!-- Team Content Start -->
@@ -72,22 +71,19 @@
                 <!-- Team Member Item Start -->
                 <div class="team-member-item wow fadeInUp" data-wow-delay="0.2s">
                     <!-- Team Image Start -->
-                    <div class="team-image">
-                        <figure class="image-anime">
-                            <img src="{{ asset('assets/images/Dr-Mickael.png') }}" alt="">
-                        </figure>
+                    <a href="{{ route('team.michael') }}">
 
-                        <!-- Team Social Icon Start -->
-                        <div class="team-social-icon">
-                            <ul>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#" class="social-icon"><i class="fa-brands fa-x-twitter"></i></a></li>
-                            </ul>
+                        <div class="team-image">
+                            <figure class="image-anime">
+                                <img src="{{ asset('assets/images/Dr-Mickael.png') }}" alt="">
+                            </figure>
+
+                            <!-- Team Social Icon Start -->
+
+                            <!-- Team Social Icon End -->
                         </div>
-                        <!-- Team Social Icon End -->
-                    </div>
+                    </a>
+
                     <!-- Team Image End -->
 
                     <!-- Team Content Start -->
