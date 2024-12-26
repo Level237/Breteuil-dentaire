@@ -83,9 +83,8 @@ Homepage
             <div class="col-lg-4 col-md-12 col-12">
                 <!-- Cta Box Btn Start -->
                 <div class="cta-box-btn wow fadeInUp" data-wow-delay="0.5s">
-                    <a href="#" class="btn-default btn-highlighted">Contactez-nous</a>
+                    <a href="{{ route('contact.view') }}" class="btn-default btn-highlighted">Contactez-nous</a>
                 </div>
-                <!-- Cta Box Btn End -->
             </div>
         </div>
     </div>
@@ -165,7 +164,7 @@ Homepage
                 <!-- Section Title Start -->
                 <div class="section-title">
                     <h3 class="wow fadeInUp">Nos Services</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Des services de haute .</span>qualité pour vous</h2>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Des services de haute </span>qualité pour vous</h2>
                     <p class="wow fadeInUp" data-wow-delay="0.25s">Nous nous engageons en faveur du développement durable et des initiatives respectueuses de l'environnement.</p>
                 </div>
                 <!-- Section Title End -->
@@ -175,28 +174,23 @@ Homepage
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <!-- Service Item Start -->
-                    <a href="{{ route('implant-dentaire') }}">
-
-                        <div class="service-item wow fadeInUp">
-                            <div class="icon-box">
-                                <div class="img">
-                                    <img src="{{ asset('assets/images/icon-services-1.svg') }}" alt="">
-                                </div>
-                            </div>
-                            <div class="service-body">
-                                <h3>Implantologie dentaire</h3>
-                                <p>Les implants dentaires sont une solution à long terme qui permet de remplacer en toute sécurité une ou plusieurs dents</p>
-                            </div>
-
+                <div class="service-item wow fadeInUp">
+                    <div class="icon-box">
+                        <div class="img">
+                            <img src="{{ asset('assets/images/icon-services-1.svg') }}" alt="">
                         </div>
-                    </a>
+                    </div>
+                    <div class="service-body">
+                        <h3>Implantologie dentaire</h3>
+                        <p>Les implants dentaires sont une solution à long terme qui permet de remplacer en toute sécurité une ou plusieurs dents</p>
+                    </div>
 
+                </div>
                 <!-- Service Item End -->
             </div>
 
             <div class="col-lg-4 col-md-6">
                 <!-- Service Item Start -->
-                <a href="{{ route('esthetique.sourire') }}">
                 <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="icon-box">
                         <div class="img">
@@ -209,12 +203,11 @@ Homepage
                     </div>
 
                 </div>
-            </a>
                 <!-- Service Item End -->
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <a href="{{ route('proteses-dentaires') }}">
+                <!-- Service Item Start -->
                 <div class="service-item wow fadeInUp" data-wow-delay="0.5s">
                     <div class="icon-box">
                         <div class="img">
@@ -228,7 +221,6 @@ Homepage
                     </div>
 
                 </div>
-            </a>
                 <!-- Service Item End -->
             </div>
 

@@ -12,7 +12,7 @@
 
                     <!-- About Footer Content Start -->
                     <div class="about-footer-content">
-                        <p>L'objectif de notre clinique est d'offrir une dentisterie amicale et attentionnée ainsi que des traitements dentaires généraux, cosmétiques et spécialisés du plus haut niveau.</p>
+                        <p>L'objectif de notre cabinet est d'offrir une dentisterie amicale et attentionnée ainsi que des traitements dentaires généraux, cosmétiques et spécialisés du plus haut niveau.</p>
                      </div>
                      <!-- About Footer Content End -->
                  </div>
