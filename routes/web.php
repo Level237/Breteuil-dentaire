@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\GaleryController;
 use App\Http\Controllers\HomeController;
@@ -38,4 +39,5 @@ Route::get('facette-pelliculaire',[PageController::class,'facettePelliculaire'])
 Route::get('dentisterie-numerique',[PageController::class,'dentisterie'])->name('dentisterie-numerique');
 Route::get('contact',[ContactController::class,'contactView'])->name('contact.view');
 Route::post('contact',[ContactController::class,'send'])->name('send.contact');
+Route::get('prenez-rendez-vous',[AppointmentController::class,'appointment'])->name('appointment');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');

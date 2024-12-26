@@ -254,12 +254,10 @@ Homepage
                             <!-- Section Title End -->
 
                             <!-- Visit Clinic Btn Start -->
-                            <div class="visit-clinic-btn wow fadeInUp" data-wow-delay="0.25s" data-cursor-text="Play">
-                                <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video play-btn">Voir la galerie</a>
+                            <div class="visit-clinic-btn wow fadeInUp" data-wow-delay="0.25s" data-cursor-text="Voir">
+                                <a href="{{ route('visite-cabinet') }}" class="btn-default">Visite du Cabinet</a>
                             </div>
-                            <!-- Visit Clinic Btn End -->
                         </div>
-                        <!-- Visit Clinic Content End -->
                     </div>
                     <!-- Visit Clinic End -->
                 </div>
