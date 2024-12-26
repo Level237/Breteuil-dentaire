@@ -36,7 +36,7 @@
                             <li class="nav-item submenu"><a style="font-size: 14px" class="nav-link" href="#">Esthétique</a>
                                 <ul>
                                     <li class="nav-item"><a class="nav-link" href="{{ route('eclaircissement') }}">Eclaircissement dentaire</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('esthetique.sourire') }}">Eclaircissement du sourire</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('esthetique.sourire') }}">Esthetique du sourire</a></li>
                                     <li class="nav-item"><a class="nav-link" href="{{ route('facette-dentaire') }}">Facette dentaire</a></li>
                                     <li class="nav-item"><a class="nav-link" href="{{ route('facette-pelliculaire') }}">Facette pelliculaire</a></li>
                                 </ul>

@@ -146,7 +146,7 @@ Homepage
 
                     <!-- About Us Footer Start -->
                     <div class="about-us-footer wow fadeInUp" data-wow-delay="0.75s">
-                        <a href="#" class="btn-default">Notre Equipe</a>
+                        <a href="{{ route('team') }}" class="btn-default">Notre Equipe</a>
                     </div>
                     <!-- About Us Footer End -->
                 </div>
@@ -175,23 +175,28 @@ Homepage
         <div class="row">
             <div class="col-lg-4 col-md-6">
                 <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp">
-                    <div class="icon-box">
-                        <div class="img">
-                            <img src="{{ asset('assets/images/icon-services-1.svg') }}" alt="">
-                        </div>
-                    </div>
-                    <div class="service-body">
-                        <h3>Implantologie dentaire</h3>
-                        <p>Les implants dentaires sont une solution à long terme qui permet de remplacer en toute sécurité une ou plusieurs dents</p>
-                    </div>
+                    <a href="{{ route('implant-dentaire') }}">
 
-                </div>
+                        <div class="service-item wow fadeInUp">
+                            <div class="icon-box">
+                                <div class="img">
+                                    <img src="{{ asset('assets/images/icon-services-1.svg') }}" alt="">
+                                </div>
+                            </div>
+                            <div class="service-body">
+                                <h3>Implantologie dentaire</h3>
+                                <p>Les implants dentaires sont une solution à long terme qui permet de remplacer en toute sécurité une ou plusieurs dents</p>
+                            </div>
+
+                        </div>
+                    </a>
+
                 <!-- Service Item End -->
             </div>
 
             <div class="col-lg-4 col-md-6">
                 <!-- Service Item Start -->
+                <a href="{{ route('esthetique.sourire') }}">
                 <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
                     <div class="icon-box">
                         <div class="img">
@@ -204,11 +209,12 @@ Homepage
                     </div>
 
                 </div>
+            </a>
                 <!-- Service Item End -->
             </div>
 
             <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
+                <a href="{{ route('proteses-dentaires') }}">
                 <div class="service-item wow fadeInUp" data-wow-delay="0.5s">
                     <div class="icon-box">
                         <div class="img">
@@ -222,6 +228,7 @@ Homepage
                     </div>
 
                 </div>
+            </a>
                 <!-- Service Item End -->
             </div>
 
