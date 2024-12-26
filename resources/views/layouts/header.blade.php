@@ -12,7 +12,7 @@
                 <div   class="collapse navbar-collapse main-menu">
                     <div class="nav-menu-wrapper">
                         <ul class="navbar-nav mr-auto" id="menu">
-                            <li class="nav-item submenu" ><a class="nav-link" style="font-size: 14px" href="index-3.html">Le Cabinet</a>
+                            <li class="nav-item submenu" ><a class="nav-link" style="font-size: 14px" href="#">Le Cabinet</a>
                                 <ul class="sub-menu">
                                     <li class="nav-item"><a class="nav-link" href="{{ route('team') }}">Notre Equipe</a></li>
                                     <li class="nav-item"><a class="nav-link" href="{{ route('team.dassie') }}">Dr Fabrice DASSIE</a></li>
