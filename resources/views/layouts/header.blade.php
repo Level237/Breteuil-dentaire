@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-lg">
             <div  class="container">
                 <!-- Logo Start -->
-                <a class="navbar-brand" href="index-3.html">
+                <a class="navbar-brand" href="{{ route('homepage') }}">
                     <img src="{{ asset('assets/images/logo.svg') }}" alt="Logo">
                 </a>
                 <!-- Logo End -->
