@@ -10,4 +10,10 @@ class AppointmentController extends Controller
 
         return view('appointment');
     }
+
+    public function store(Request $request){
+
+
+        return back()->with('success', "Votre email a bien été envoyé avec success,nous vous contacterons  d' ici peu");
+    }
 }

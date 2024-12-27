@@ -40,4 +40,5 @@ Route::get('dentisterie-numerique',[PageController::class,'dentisterie'])->name(
 Route::get('contact',[ContactController::class,'contactView'])->name('contact.view');
 Route::post('contact',[ContactController::class,'send'])->name('send.contact');
 Route::get('prenez-rendez-vous',[AppointmentController::class,'appointment'])->name('appointment');
+Route::post('prenez-rendez-vous',[AppointmentController::class,'store'])->name('store.appointment');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');

@@ -73,4 +73,9 @@ class PageController extends Controller
 
         return view('dentisterie-numerique');
     }
+
+    public function congratulation(){
+
+        return view('success');
+    }
 }

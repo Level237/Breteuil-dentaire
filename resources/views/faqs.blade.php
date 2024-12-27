@@ -169,7 +169,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">contactez nous</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Obtenir une consultation</span>pour une chirugie</h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Obtenir une consultation</span>pour un suivi</h2>
                     </div>
                     <!-- Section Title End -->
 
