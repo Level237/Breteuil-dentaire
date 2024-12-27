@@ -25,7 +25,7 @@
 </div>
 <div class="container" style="margin-top:12px">
     <div class="alert alert-primary" role="alert">
-        Votre email a bien été envoyé avec success,nous vous contacterons  d' ici peu
+
       </div>
 </div>
 <div class="page-book-appointment">
