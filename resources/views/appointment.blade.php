@@ -24,9 +24,11 @@
     </div>
 </div>
 <div class="container" style="margin-top:12px">
+    @if(Session::get("success"))
     <div class="alert alert-primary" role="alert">
-
+        {{ Session::get("success") }}
       </div>
+      @endif
 </div>
 <div class="page-book-appointment">
     <div class="container">

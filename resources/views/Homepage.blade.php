@@ -21,7 +21,7 @@ Homepage
 
                     <!-- Hero Content Body Start -->
                     <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="#" class="btn-default">Prendre un rendez-vous</a>
+                        <a href="{{ route('appointment') }}" class="btn-default">Prendre un rendez-vous</a>
                     </div>
                     <!-- Hero Content Body End -->
 
@@ -606,7 +606,7 @@ Homepage
 
                     <!-- Footer Appointment Button Start  -->
                     <div class="contact-appointment-btn wow fadeInUp" data-wow-delay="1s">
-                        <a href="#" class="btn-default">Prendre un rendez-vous</a>
+                        <a href="{{ route('appointment') }}" class="btn-default">Prendre un rendez-vous</a>
                     </div>
                     <!-- Footer Appointment Button End  -->
                 </div>
