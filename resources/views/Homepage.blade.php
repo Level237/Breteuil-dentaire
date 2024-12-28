@@ -230,7 +230,7 @@ Homepage
                 <!-- Service Box Footer Start -->
                 <div class="services-box-footer wow fadeInUp" data-wow-delay="1s">
                     <p>Nous croyons en l'utilisation des technologies et des techniques les plus récentes pour garantir les meilleurs résultats à nos patients.</p>
-                    <a href="#" class="btn-default">Voir tout nos services</a>
+                    <a href="{{ route('service.index') }}" class="btn-default">Voir tout nos services</a>
                 </div>
                 <!-- Service Box Footer End -->
             </div>

@@ -5,6 +5,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\GaleryController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TeamController;
 use Illuminate\Support\Facades\Route;
 
@@ -41,4 +42,5 @@ Route::get('contact',[ContactController::class,'contactView'])->name('contact.vi
 Route::post('contact',[ContactController::class,'send'])->name('send.contact');
 Route::get('prenez-rendez-vous',[AppointmentController::class,'appointment'])->name('appointment');
 Route::post('prenez-rendez-vous',[AppointmentController::class,'store'])->name('store.appointment');
+Route::get('/services',[ServiceController::class,'index'])->name('service.index');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');
