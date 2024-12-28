@@ -4,6 +4,9 @@
 Esthétique du sourire
 @endsection
 
+@section("meta_title","Esthétique du sourire")
+@section("meta_description","Breteuil dentaire - Esthétique du sourire")
+@section("meta_image",asset('assets/images/service-entry-img-1.jpg'))
 @section('main')
 <div class="page-header" style="background-image: url({{ asset('assets/images/teeth-5120231_640-dark.jpg') }});background-size:cover;height:100%;background-position:bottom">
     <div class="container">

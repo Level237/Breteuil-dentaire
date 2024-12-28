@@ -4,6 +4,9 @@
 Eclaircissement dentaire
 @endsection
 
+@section("meta_title","Eclaircissement dentaire")
+@section("meta_description","Breteuil dentaire - Eclaircissement dentaire")
+@section("meta_image",asset('assets/images/service-entry-img-1.jpg'))
 @section('main')
 <div class="page-header" style="background-image: url({{ asset('assets/images/tooth-2414909_1920-1024x350-dark.jpg') }});background-size:cover;height:100%;background-position:bottom">
     <div class="container">

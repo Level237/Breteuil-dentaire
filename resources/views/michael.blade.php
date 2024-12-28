@@ -108,7 +108,7 @@ Dr michael Aboulker
 
                             <!-- Cta Appointment Button Start -->
                             <div class="cta-appointment-btn">
-                                <a href="" class="btn-default">Prendre un rendez vous</a>
+                                <a href="{{ route('appointment') }}" class="btn-default">Prendre un rendez vous</a>
                             </div>
                             <!-- Cta Appointment Button End -->
                         </div>

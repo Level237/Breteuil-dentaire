@@ -29,7 +29,7 @@ class GenerateSitemap extends Command
     {
 
 
-        $sitemapGenerator=SitemapGenerator::create('https://viens-yamo.com')->getSitemap();
+        $sitemapGenerator=SitemapGenerator::create('https://www.breteuildentaire.fr')->getSitemap();
 
         $sitemapGenerator->add(Url::create('/')->setPriority(1))
             ->add(Url::create('/le-cabinet/notre-equipe')->setPriority(0.8))

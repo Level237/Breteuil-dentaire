@@ -4,6 +4,9 @@
 Visite du cabinet
 @endsection
 
+@section("meta_title","Visite du cabinet")
+@section("meta_description","Breteuil dentaire - Visite du cabinet")
+@section("meta_image",asset('assets/images/accueil.jpeg'))
 @section("main")
 <div class="page-header" style="background-image: url({{ asset('assets/images/accueil-dark.jpeg') }});background-size:cover;height:100%;background-position:center">
     <div class="container">

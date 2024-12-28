@@ -4,6 +4,9 @@
 Notre Equipe
 @endsection
 
+@section("meta_title","Notre equipe")
+@section("meta_description","Breteuil dentaire - Notre équipe")
+@section("meta_image",asset('assets/images/service-entry-img-1.jpg'))
 @section("main")
 <div class="page-header " style="background-image: url({{ asset('assets/images/dark-team.jpg') }});background-size:cover;height:100%"  >
 

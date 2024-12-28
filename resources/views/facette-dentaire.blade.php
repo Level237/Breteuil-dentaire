@@ -4,6 +4,9 @@
 Facette dentaire
 @endsection
 
+@section("meta_title","Facette dentaire")
+@section("meta_description","Breteuil dentaire - Facette dentaire")
+@section("meta_image",asset('assets/images/service-entry-img-1.jpg'))
 @section('main')
 <div class="page-header" style="background-image: url({{ asset('assets/images/Facette-dentaire-Ormoy-dark.jpg') }});background-size:cover;height:100%;background-position:bottom">
     <div class="container">

@@ -4,6 +4,9 @@
 Urgences dentaires
 @endsection
 
+@section("meta_title","Urgence dentaire")
+@section("meta_description","Breteuil dentaire - Urgence dentaire")
+@section("meta_image",asset('assets/images/service-entry-img-1.jpg'))
 @section('main')
 <div class="page-header" style="background-image: url({{ asset('assets/images/urgences.jpg') }});background-size:cover;height:100%;">
     <div class="container">

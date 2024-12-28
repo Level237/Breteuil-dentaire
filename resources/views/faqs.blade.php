@@ -3,7 +3,9 @@
 @section('title')
 Faq
 @endsection
-
+@section("meta_title","Faq")
+@section("meta_description","Breteuil dentaire - Faq")
+@section("meta_image",asset('assets/images/service-entry-img-1.jpg'))
 @section('main')
 <div class="page-header" style="background-image: url({{ asset('assets/images/protese.jpg') }});background-size:cover;height:100%;background-position:bottom">
     <div class="container">

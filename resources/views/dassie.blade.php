@@ -3,7 +3,9 @@
 @section('title')
 Dr Fabrice Dassie
 @endsection
-
+@section("meta_title","Dr Fabrice Dassie")
+@section("meta_description","Breteuil dentaire - Dr Fabrice Dassie")
+@section("meta_image",asset('assets/images/Dr-Fabrice-Dassie.png'))
 @section("main")
 <div class="page-header" style="background-image: url({{ asset('assets/images/Dr-Fabrice-Dassie-dark.png') }});background-size:cover;height:100%">
     <div class="container">
@@ -106,7 +108,7 @@ Dr Fabrice Dassie
 
                             <!-- Cta Appointment Button Start -->
                             <div class="cta-appointment-btn">
-                                <a href="" class="btn-default">Prendre un rendez vous</a>
+                                <a href="{{ route('appointment') }}" class="btn-default">Prendre un rendez vous</a>
                             </div>
                             <!-- Cta Appointment Button End -->
                         </div>

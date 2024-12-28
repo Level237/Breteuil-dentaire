@@ -5,9 +5,13 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="Awaiken">
+    <Meta name=" robots " content="index, follow" />
+    <meta name="twitter:card" content="@yield('meta_title')" />
+    <meta name="twitter:site" content="https://www.breteuildentaire.fr" />
+    <meta name="twitter:title" content="@yield('meta_title')" />
+    <meta name="twitter:description" content="@yield('meta_description')" />
+    <meta name="twitter:image" content="@yield('meta_image')" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Page Title -->
     <title>@yield('title')</title>
 	<!-- Favicon Icon -->
