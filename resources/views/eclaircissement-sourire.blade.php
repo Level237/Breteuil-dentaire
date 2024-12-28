@@ -28,7 +28,7 @@ Esthétique du sourire
     </div>
 </div>
 
-<div class="service-featured-image container" style="margin-top: 110px;padding-right:110px;padding-left:110px">
+<div class="service-featured-image container" style="margin-top: 110px;">
     <figure class="reveal image-anime">
         <img style="height: 30rem;"  src="{{ asset('assets/images/teeth-5120231_640.jpg') }}" alt="">
     </figure>

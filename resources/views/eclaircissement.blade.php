@@ -28,9 +28,9 @@ Eclaircissement dentaire
     </div>
 </div>
 
-<div class="service-featured-image container" style="margin-top: 110px;padding-right:110px;padding-left:110px">
+<div class="service-featured-image container" style="margin-top: 110px;">
     <figure class="reveal image-anime">
-        <img style="height: 30rem;"  src="{{ asset('assets/images/tooth-2414909_1920-1024x350.jpg') }}" alt="">
+        <img style="height: 30rem;" class="w-full"  src="{{ asset('assets/images/tooth-2414909_1920-1024x350.jpg') }}" alt="">
     </figure>
 </div>
 
