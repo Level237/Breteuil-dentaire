@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
+Nos Services
 @endsection
 
 @section('main')

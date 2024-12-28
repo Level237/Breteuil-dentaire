@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
+Remplacer plusieurs dents - Cabinet dentaire
 @endsection
 
 @section('main')

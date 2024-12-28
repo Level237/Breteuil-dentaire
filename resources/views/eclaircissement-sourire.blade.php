@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
+Esthétique du sourire
 @endsection
 
 @section('main')

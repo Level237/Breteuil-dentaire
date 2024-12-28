@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
+Protèse dentaire
 @endsection
 
 @section('main')

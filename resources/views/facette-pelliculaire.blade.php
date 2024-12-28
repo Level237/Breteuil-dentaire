@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
+Facette pelliculaire
 @endsection
 
 @section('main')

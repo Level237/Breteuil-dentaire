@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
+Dentisterie numérique
 @endsection
 
 @section('main')

@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
+Chirugie Pré-implantaire
 @endsection
 
 @section('main')

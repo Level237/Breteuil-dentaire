@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-
+Dr Fabrice Dassie
 @endsection
 
 @section("main")
@@ -9,7 +9,6 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <!-- Page Header Box Start -->
                 <div class="page-header-box">
                     <h1 class="text-anime-style-2" data-cursor="-opaque">Dr.Fabrice Dassie</h1>
                     <nav class="wow fadeInUp">

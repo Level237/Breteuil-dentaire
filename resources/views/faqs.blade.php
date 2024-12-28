@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
+Faq
 @endsection
 
 @section('main')

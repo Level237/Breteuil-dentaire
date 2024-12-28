@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-
+Visite du cabinet
 @endsection
 
 @section("main")

@@ -1,7 +1,7 @@
 ﻿@extends('layouts.main')
 
 @section('title')
-Homepage
+Cabinet dentaire de la MSP de l'abbaye de Breteuil
 @endsection
 
 @section('main')

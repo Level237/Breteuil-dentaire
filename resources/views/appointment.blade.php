@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
+Prendre un Rendez vous
 @endsection
 
 @section('main')

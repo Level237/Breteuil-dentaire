@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
+Eclaircissement dentaire
 @endsection
 
 @section('main')

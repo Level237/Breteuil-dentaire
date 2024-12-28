@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
+Implant dentaire
 @endsection
 
 @section('main')
