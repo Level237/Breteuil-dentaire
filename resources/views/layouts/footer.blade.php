@@ -23,10 +23,10 @@
                 <div class="footer-links footer-quick-links">
                     <h3>Liens rapide</h3>
                     <ul>
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Urgence dentaire</a></li>
-                        <li><a href="#">Protèse dentaire</a></li>
-                        <li><a href="#">Prendre un rendez vous</a></li>
+                        <li><a href="{{ route('homepage') }}">Accueil</a></li>
+                        <li><a href="{{ route('urgence-dentaire') }}">Urgence dentaire</a></li>
+                        <li><a href="{{ route('proteses-dentaires') }}">Protèse dentaire</a></li>
+                        <li><a href="{{ route('appointment') }}">Prendre un rendez vous</a></li>
                     </ul>
                 </div>
                 <!-- Footer Quick Links End -->
