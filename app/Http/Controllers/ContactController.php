@@ -18,6 +18,6 @@ class ContactController extends Controller
         Mail::to('Bramslevel129@gmail.com')
             ->send(new Contact($request->except('_token')));
 
-            return to_route('homepage');
+            return back()->with('success', "Votre email a bien été envoyé avec success,nous vous contact");
     }
 }
