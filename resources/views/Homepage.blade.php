@@ -15,8 +15,8 @@ Cabinet dentaire de la MSP de l'abbaye de Breteuil
                 <div class="hero-content">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">Bienvenue au Cabinet dentaire Breteuil</h3>
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Soins dentaire pour tous</h1>
+                        <h3 class="wow fadeInUp">Bienvenue au Cabinet dentaire de Breteuil</h3>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">L'experience et l'innovation à votre service</h1>
 
                     </div>
                     <!-- Section Title End -->
@@ -61,7 +61,7 @@ Cabinet dentaire de la MSP de l'abbaye de Breteuil
                         <img src="images/icon-cta-phone.svg" alt="">
                     </div>
                     <div class="cta-box-content">
-                        <h3>Besoin de services dentaire?</h3>
+                        <h3>Un besoin? une urgence dentaire?</h3>
                         <p>Contactez nous au : (+01) 987 828 745</p>
                     </div>
                 </div>
@@ -129,7 +129,7 @@ Cabinet dentaire de la MSP de l'abbaye de Breteuil
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">Tout savoir sur nous</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Votre voyage </span> vers un sourire plus sain commence ici</h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Votre voyage </span> vers des dents en bonne santé commence ici</h2>
                         <p class="wow fadeInUp" data-wow-delay="0.25s">L'objectif de notre clinique est d'offrir une dentisterie amicale et attentionnée ainsi que des traitements dentaires généraux, cosmétiques et spécialisés du plus haut niveau.</p>
                     </div>
                     <!-- Section Title End -->
@@ -140,7 +140,7 @@ Cabinet dentaire de la MSP de l'abbaye de Breteuil
                             <li>une équipe expérimentée</li>
                             <li>une technologie de pointe</li>
                             <li>des services complets</li>
-                            <li>services dentaires d'urgence</li>
+                            <li>service d'urgence dentaire</li>
                         </ul>
                     </div>
                     <!-- About Us Body End -->
@@ -166,7 +166,7 @@ Cabinet dentaire de la MSP de l'abbaye de Breteuil
                 <!-- Section Title Start -->
                 <div class="section-title">
                     <h3 class="wow fadeInUp">Nos Services</h3>
-                    <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Des services de haute </span>qualité pour vous</h2>
+                    <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Toutes les spécialités </span>dentaires pour répondre à vos besoins</h2>
                     <p class="wow fadeInUp" data-wow-delay="0.25s">Nous nous engageons en faveur du développement durable et des initiatives respectueuses de l'environnement.</p>
                 </div>
                 <!-- Section Title End -->

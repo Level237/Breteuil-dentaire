@@ -134,6 +134,42 @@ Nos Services
                 </div>
                 <!-- Service Item End -->
             </div>
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="1.4s">
+                    <div class="service-body">
+                        <h3>Orthodontie</h3>
+                    </div>
+                    <div class="read-more-btn">
+                        <a href="{{ route('esthetique.sourire') }}">Voir plus</a>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="1.4s">
+                    <div class="service-body">
+                        <h3>Aligneurs invisibles</h3>
+                    </div>
+                    <div class="read-more-btn">
+                        <a href="{{ route('esthetique.sourire') }}">Voir plus</a>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <!-- Service Item Start -->
+                <div class="service-item wow fadeInUp" data-wow-delay="1.4s">
+                    <div class="service-body">
+                        <h3>Odontologie pédiatrique</h3>
+                    </div>
+                    <div class="read-more-btn">
+                        <a href="{{ route('esthetique.sourire') }}">Voir plus</a>
+                    </div>
+                </div>
+                <!-- Service Item End -->
+            </div>
         </div>
     </div>
 </div>
@@ -231,7 +267,7 @@ Nos Services
 
                     <!-- Footer Appointment Button Start  -->
                     <div class="contact-appointment-btn wow fadeInUp" data-wow-delay="1s">
-                        <a href="#" class="btn-default">Prendre un rendez-vous</a>
+                        <a href="{{route('appointment')}}" class="btn-default">Prendre un rendez-vous</a>
                     </div>
                     <!-- Footer Appointment Button End  -->
                 </div>
