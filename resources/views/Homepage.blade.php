@@ -409,13 +409,13 @@ Cabinet dentaire de la MSP de l'abbaye de Breteuil
                     <div class="why-choose-item wow fadeInUp" data-wow-delay="0.5s">
                         <!-- Icon Box Start -->
                         <div class="icon-box">
-                            <img src="{{ asset('assets/images/icon-why-us-3.svg') }}" alt="">
+                            <img src="{{ asset('assets/images/icon-why-us-2.svg') }}" alt="">
                         </div>
                         <!-- Icon Box End -->
 
                         <!-- Why Choose Content Start -->
                         <div class="why-choose-content">
-                            <h3>Options de paiement flexibles</h3>
+                            <h3>Consultation personnalisée</h3>
 
                         </div>
                         <!-- Why Choose Content End -->
@@ -535,7 +535,7 @@ Cabinet dentaire de la MSP de l'abbaye de Breteuil
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">contactez nous</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Obtenir une consultation</span>professionnelle gratuite</h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Prennez</span> un rendez vous</h2>
                     </div>
                     <!-- Section Title End -->
 

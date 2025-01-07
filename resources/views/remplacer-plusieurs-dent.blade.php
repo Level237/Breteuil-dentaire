@@ -216,7 +216,7 @@ Remplacer plusieurs dents - Cabinet dentaire
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">contactez nous</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Obtenir une consultation</span>pour remplacer une dent</h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Prennez rendez-vous </span>pour remplacer une dent</h2>
                     </div>
                     <!-- Section Title End -->
 

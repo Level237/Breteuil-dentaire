@@ -83,7 +83,7 @@ Facette dentaire
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">contactez nous</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Obtenir une consultation</span>pour une facette dentaire</h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Prennez rendez-vous </span>pour une facette dentaire</h2>
                     </div>
                     <!-- Section Title End -->
 
