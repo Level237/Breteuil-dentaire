@@ -36,10 +36,8 @@ Notre Equipe
 <div class="page-team">
     <div class="container">
         <div class="row">
-            <div class="col-lg-2 d-none d-sm-block col-md-6">
-
-            </div>
-            <div class="col-lg-4 col-md-6">
+            
+            <div class="col-lg-4 col-md-4">
                 <!-- Team Member Item Start -->
 
                 <div class="team-member-item wow fadeInUp">
@@ -70,7 +68,7 @@ Notre Equipe
                 <!-- Team Member Item End -->
             </div>
 
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-4">
                 <!-- Team Member Item Start -->
                 <div class="team-member-item wow fadeInUp" data-wow-delay="0.2s">
                     <!-- Team Image Start -->
@@ -98,8 +96,33 @@ Notre Equipe
                 </div>
                 <!-- Team Member Item End -->
             </div>
-            <div class="col-lg-2 d-none d-sm-block col-md-6">
+            <div class="col-lg-4 col-md-4">
+                <!-- Team Member Item Start -->
+                <div class="team-member-item wow fadeInUp" data-wow-delay="0.2s">
+                    <!-- Team Image Start -->
+                    <a href="{{ route('team.michael') }}">
 
+                        <div class="team-image">
+                            <figure class="image-anime">
+                                <img src="{{ asset('assets/images/dr-lowe.png') }}" alt="">
+                            </figure>
+
+                            <!-- Team Social Icon Start -->
+
+                            <!-- Team Social Icon End -->
+                        </div>
+                    </a>
+
+                    <!-- Team Image End -->
+
+                    <!-- Team Content Start -->
+                    <div class="team-content">
+                        <h3>Dr Priscile NANA LOWE</h3>
+                        <p>Chirurgien dentiste</p>
+                    </div>
+                    <!-- Team Content End -->
+                </div>
+                <!-- Team Member Item End -->
             </div>
         </div>
     </div>
