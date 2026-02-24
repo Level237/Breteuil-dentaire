@@ -12,10 +12,11 @@
 
                     <!-- About Footer Content Start -->
                     <div class="about-footer-content">
-                        <p>L'objectif de notre cabinet est d'offrir une dentisterie amicale et attentionnée ainsi que des traitements dentaires généraux, cosmétiques et spécialisés du plus haut niveau.</p>
-                     </div>
-                     <!-- About Footer Content End -->
-                 </div>
+                        <p>L'objectif de notre cabinet est d'offrir une dentisterie amicale et attentionnée ainsi que
+                            des traitements dentaires généraux, cosmétiques et spécialisés du plus haut niveau.</p>
+                    </div>
+                    <!-- About Footer Content End -->
+                </div>
                 <!-- About Footer End -->
             </div>
             <div class="col-lg-3 col-md-4">
@@ -52,7 +53,7 @@
                     <h3>Contactez-nous</h3>
                     <ul>
                         <li><a href="#">info@domain.com</a></li>
-                        <li><a href="#">03 65 65 75 75</a></li>
+                        <li><a href="#">03 74 47 24 24</a></li>
                     </ul>
                 </div>
                 <!-- Footer Contact Links End -->
@@ -65,7 +66,7 @@
                 <div class="col-lg-12">
                     <!-- Footer Copyright Start -->
                     <div class="footer-copyright-text">
-                        <p>Copyright © 2024 All Rights Reserved.</p>
+                        <p>Copyright © 2026 All Rights Reserved.</p>
                     </div>
                     <!-- Footer Copyright End -->
                 </div>
