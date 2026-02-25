@@ -52,7 +52,7 @@
                 <div class="footer-links footer-contact-links">
                     <h3>Contactez-nous</h3>
                     <ul>
-                        <li><a href="#">info@domain.com</a></li>
+                        <li><a href="#">breteuildentaire@gmail.com</a></li>
                         <li><a href="#">03 74 47 24 24</a></li>
                     </ul>
                 </div>

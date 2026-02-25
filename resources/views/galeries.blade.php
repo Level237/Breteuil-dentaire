@@ -40,6 +40,110 @@
                 <div class="col-lg-4 col-md-4 col-6">
                     <!-- image gallery start -->
                     <div class="photo-gallery wow fadeInUp" data-cursor-text="View">
+                        <a href="{{ asset('assets/images/galeries/galerie9.jpg') }}">
+                            <figure>
+                                <img src="{{ asset('assets/images/galeries/galerie9.jpg') }}" alt="">
+
+                            </figure>
+
+                        </a>
+                    </div>
+                    <!-- image gallery end -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <!-- image gallery start -->
+                    <div class="photo-gallery wow fadeInUp" data-cursor-text="View">
+                        <a href="{{ asset('assets/images/galeries/galerie8.jpg') }}">
+                            <figure>
+                                <img src="{{ asset('assets/images/galeries/galerie8.jpg') }}" alt="">
+
+                            </figure>
+
+                        </a>
+                    </div>
+                    <!-- image gallery end -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <!-- image gallery start -->
+                    <div class="photo-gallery wow fadeInUp" data-cursor-text="View">
+                        <a href="{{ asset('assets/images/galeries/galerie7.jpg') }}">
+                            <figure>
+                                <img src="{{ asset('assets/images/galeries/galerie7.jpg') }}" alt="">
+
+                            </figure>
+
+                        </a>
+                    </div>
+                    <!-- image gallery end -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <!-- image gallery start -->
+                    <div class="photo-gallery wow fadeInUp" data-cursor-text="View">
+                        <a href="{{ asset('assets/images/galeries/galerie6.jpg') }}">
+                            <figure>
+                                <img src="{{ asset('assets/images/galeries/galerie6.jpg') }}" alt="">
+
+                            </figure>
+
+                        </a>
+                    </div>
+                    <!-- image gallery end -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <!-- image gallery start -->
+                    <div class="photo-gallery wow fadeInUp" data-cursor-text="View">
+                        <a href="{{ asset('assets/images/galeries/galerie5.jpg') }}">
+                            <figure>
+                                <img src="{{ asset('assets/images/galeries/galerie5.jpg') }}" alt="">
+
+                            </figure>
+
+                        </a>
+                    </div>
+                    <!-- image gallery end -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <!-- image gallery start -->
+                    <div class="photo-gallery wow fadeInUp" data-cursor-text="View">
+                        <a href="{{ asset('assets/images/galeries/galerie4.jpg') }}">
+                            <figure>
+                                <img src="{{ asset('assets/images/galeries/galerie4.jpg') }}" alt="">
+
+                            </figure>
+
+                        </a>
+                    </div>
+                    <!-- image gallery end -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <!-- image gallery start -->
+                    <div class="photo-gallery wow fadeInUp" data-cursor-text="View">
+                        <a href="{{ asset('assets/images/galeries/galerie3.jpg') }}">
+                            <figure>
+                                <img src="{{ asset('assets/images/galeries/galerie3.jpg') }}" alt="">
+
+                            </figure>
+
+                        </a>
+                    </div>
+                    <!-- image gallery end -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <!-- image gallery start -->
+                    <div class="photo-gallery wow fadeInUp" data-cursor-text="View">
+                        <a href="{{ asset('assets/images/galeries/galerie2.jpg') }}">
+                            <figure>
+                                <img src="{{ asset('assets/images/galeries/galerie2.jpg') }}" alt="">
+
+                            </figure>
+
+                        </a>
+                    </div>
+                    <!-- image gallery end -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-6">
+                    <!-- image gallery start -->
+                    <div class="photo-gallery wow fadeInUp" data-cursor-text="View">
                         <a href="{{ asset('assets/images/galeries/galerie20.jpg') }}">
                             <figure>
                                 <img src="{{ asset('assets/images/galeries/galerie20.jpg') }}" alt="">
@@ -50,7 +154,17 @@
                     </div>
                     <!-- image gallery end -->
                 </div>
-
+                <div class="col-lg-4 col-md-4 col-6">
+                    <!-- image gallery start -->
+                    <div class="photo-gallery wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View">
+                        <a href="{{ asset('assets/images/galeries/galerie1.jpg') }}">
+                            <figure>
+                                <img src="{{ asset('assets/images/galeries/galerie1.jpg') }}" alt="">
+                            </figure>
+                        </a>
+                    </div>
+                    <!-- image gallery end -->
+                </div>
                 <div class="col-lg-4 col-md-4 col-6">
                     <!-- image gallery start -->
                     <div class="photo-gallery wow fadeInUp" data-wow-delay="0.2s" data-cursor-text="View">

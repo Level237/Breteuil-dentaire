@@ -249,7 +249,7 @@
 
                                 <!-- Contact Info Content Start -->
                                 <div class="contact-info-content">
-                                    <p>info@domain.com</p>
+                                    <p>breteuildentaire@gmail.com</p>
                                 </div>
                                 <!-- Contact Info Content End -->
                             </div>

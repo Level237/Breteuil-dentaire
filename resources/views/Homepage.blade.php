@@ -63,7 +63,7 @@
                         </div>
                         <div class="cta-box-content">
                             <h3>Un besoin? une urgence dentaire?</h3>
-                            <p>Contactez nous au : (+01) 987 828 745</p>
+                            <p>Contactez nous au : 03 74 47 24 24</p>
                         </div>
                     </div>
                 </div>
@@ -599,7 +599,7 @@
 
                                 <!-- Contact Info Content Start -->
                                 <div class="contact-info-content">
-                                    <p>info@domain.com</p>
+                                    <p>breteuildentaire@gmail.com</p>
                                 </div>
                                 <!-- Contact Info Content End -->
                             </div>
