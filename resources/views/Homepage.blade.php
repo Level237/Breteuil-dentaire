@@ -24,7 +24,7 @@
 
                         <!-- Hero Content Body Start -->
                         <div class="hero-content-body wow fadeInUp" data-wow-delay="0.5s">
-                            <a href="{{ route('appointment') }}" class="btn-default">Prendre un rendez-vous</a>
+                            <a target="_blank" href="https://www.doctolib.fr/cabinet-dentaire/breteuil/cabinet-dentaire-de-l-abbaye-de-breteuil" class="btn-default">Prendre un rendez-vous</a>
                         </div>
                         <!-- Hero Content Body End -->
 
@@ -86,7 +86,7 @@
                 <div class="col-lg-4 col-md-12 col-12">
                     <!-- Cta Box Btn Start -->
                     <div class="cta-box-btn wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="{{ route('contact.view') }}" class="btn-default btn-highlighted">Contactez-nous</a>
+                        <a target="_blank" href="https://www.doctolib.fr/cabinet-dentaire/breteuil/cabinet-dentaire-de-l-abbaye-de-breteuil" class="btn-default btn-highlighted">Contactez-nous</a>
                     </div>
                 </div>
             </div>
@@ -103,13 +103,13 @@
                     <div class="about-image">
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="{{ asset('assets/images/about-us-img-1.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/galeries-news/galerie1.jpg') }}" alt="">
                             </figure>
                         </div>
 
                         <div class="about-img-2">
                             <figure class="image-anime reveal">
-                                <img src="{{ asset('assets/images/about-us-img-2.jpg') }}" alt="">
+                                <img src="{{ asset('assets/images/galerie2s.jpg') }}" alt="">
                             </figure>
                         </div>
 
@@ -130,11 +130,11 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Tout savoir sur nous</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Votre voyage </span> vers des dents
-                                en bonne santé commence ici</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">L'objectif de notre clinique est d'offrir une
-                                dentisterie amicale et attentionnée ainsi que des traitements dentaires généraux,
-                                cosmétiques et spécialisés du plus haut niveau.</p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Objectif  </span> De notre cabinet
+                                </h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">L'objectif de notre clinique est d'offrir une dentisterie moderne,professionnelle et attentionnée,des traitements qui allient l'esthétique en passant par toutes les 
+                                spécialités (implantologie,orthodontie,pédodontie...)
+                            </p>
                         </div>
                         <!-- Section Title End -->
 
@@ -280,79 +280,7 @@
         <!-- Intro Clinic Video Section End -->
 
         <!-- Our Counter Section Start -->
-        <div class="our-counter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <!-- Counter Item Start -->
-                        <div class="counter-item">
-                            <!-- Counter Title Start -->
-                            <div class="counter-title">
-                                <h2><span class="counter">8</span>+</h2>
-                                <h3>Services professionnels</h3>
-                            </div>
-                            <!-- Counter Title End -->
-
-                            <!-- Counter Content Start -->
-
-                            <!-- Counter Content End -->
-                        </div>
-                        <!-- Counter Item End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <!-- Counter Item Start -->
-                        <div class="counter-item">
-                            <!-- Counter Title Start -->
-                            <div class="counter-title">
-                                <h2><span class="counter">01</span>K</h2>
-                                <h3>Consultations</h3>
-                            </div>
-                            <!-- Counter Title End -->
-
-                            <!-- Counter Content Start -->
-
-                            <!-- Counter Content End -->
-                        </div>
-                        <!-- Counter Item End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <!-- Counter Item Start -->
-                        <div class="counter-item">
-                            <!-- Counter Title Start -->
-                            <div class="counter-title">
-                                <h2><span class="counter">1</span>K</h2>
-                                <h3>Clients Satisfaits</h3>
-                            </div>
-                            <!-- Counter Title End -->
-
-                            <!-- Counter Content Start -->
-
-                            <!-- Counter Content End -->
-                        </div>
-                        <!-- Counter Item End -->
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <!-- Counter Item Start -->
-                        <div class="counter-item">
-                            <!-- Counter Title Start -->
-                            <div class="counter-title">
-                                <h2><span class="counter">18</span>+</h2>
-                                <h3>Docteurs experimentés</h3>
-                            </div>
-                            <!-- Counter Title End -->
-
-                            <!-- Counter Content Start -->
-
-                            <!-- Counter Content End -->
-                        </div>
-                        <!-- Counter Item End -->
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <!-- Our Counter Section End -->
 
         <!-- Icon Start Image Start -->
@@ -551,7 +479,7 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">contactez nous</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Prennez</span> un rendez vous</h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Prenez</span> un rendez vous</h2>
                         </div>
                         <!-- Section Title End -->
 
@@ -624,7 +552,7 @@
 
                         <!-- Footer Appointment Button Start  -->
                         <div class="contact-appointment-btn wow fadeInUp" data-wow-delay="1s">
-                            <a href="{{ route('appointment') }}" class="btn-default">Prendre un rendez-vous</a>
+                            <a href="https://www.doctolib.fr/cabinet-dentaire/breteuil/cabinet-dentaire-de-l-abbaye-de-breteuil" target="_blank" class="btn-default">Prendre un rendez-vous</a>
                         </div>
                         <!-- Footer Appointment Button End  -->
                     </div>

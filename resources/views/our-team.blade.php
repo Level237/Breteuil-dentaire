@@ -61,7 +61,7 @@ Notre Equipe
                     <!-- Team Content Start -->
                     <div class="team-content">
                         <h3>Dr Fabrice DASSIE</h3>
-                        <p>Chirurgien dentaire</p>
+                        <p>Chirurgiens-dentistes</p>
                     </div>
                     <!-- Team Content End -->
                 </div>
@@ -90,7 +90,7 @@ Notre Equipe
                     <!-- Team Content Start -->
                     <div class="team-content">
                         <h3>Dr Mickael ABOULKER</h3>
-                        <p>Chirurgien dentaire</p>
+                        <p>Chirurgiens-dentistes</p>
                     </div>
                     <!-- Team Content End -->
                 </div>

@@ -12,8 +12,7 @@
 
                     <!-- About Footer Content Start -->
                     <div class="about-footer-content">
-                        <p>L'objectif de notre cabinet est d'offrir une dentisterie amicale et attentionnée ainsi que
-                            des traitements dentaires généraux, cosmétiques et spécialisés du plus haut niveau.</p>
+                        <p>L'objectif de notre clinique est d'offrir une dentisterie moderne,professionnelle et attentionnée,des traitements qui allient l'esthétique en passant par toutes les spécialités (implantologie,orthodontie,pédodontie...)</p>
                     </div>
                     <!-- About Footer Content End -->
                 </div>
@@ -22,7 +21,7 @@
             <div class="col-lg-3 col-md-4">
                 <!-- Footer Quick Links Start -->
                 <div class="footer-links footer-quick-links">
-                    <h3>Liens rapide</h3>
+                    <h3>Liens rapides</h3>
                     <ul>
                         <li><a href="{{ route('homepage') }}">Accueil</a></li>
                         <li><a href="{{ route('urgence-dentaire') }}">Urgence dentaire</a></li>
@@ -52,7 +51,7 @@
                 <div class="footer-links footer-contact-links">
                     <h3>Contactez-nous</h3>
                     <ul>
-                        <li><a href="#">breteuildentaire@gmail.com</a></li>
+                        <li ><a style="text-transform: lowercase;" href="mailto:breteuildentaire@gmail.com">breteuildentaire@gmail.com</a></li>
                         <li><a href="#">03 74 47 24 24</a></li>
                     </ul>
                 </div>

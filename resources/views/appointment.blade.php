@@ -3,8 +3,8 @@
 @section('title')
 Prendre un Rendez vous
 @endsection
-@section("meta_title","Prennez un rendez-vous")
-@section("meta_description","Breteuil dentaire - Prennez un rendez-vous")
+@section("meta_title","Prenez un rendez-vous")
+@section("meta_description","Breteuil dentaire - Prenez un rendez-vous")
 @section("meta_image",asset('assets/images/dental-process-img-1.jpg'))
 @section('main')
 <div class="page-header" style="background-image: url({{ asset('assets/images/protese.jpg') }});background-size:cover;height:100%;background-position:bottom">
@@ -13,11 +13,11 @@ Prendre un Rendez vous
             <div class="col-lg-12">
                 <!-- Page Header Box Start -->
                 <div class="page-header-box">
-                    <h1 class="text-anime-style-2" data-cursor="-opaque"><span class="text-white">Prennez </span>rendez vous</h1>
+                    <h1 class="text-anime-style-2" data-cursor="-opaque"><span class="text-white">Prenez </span>rendez vous</h1>
                     <nav class="wow fadeInUp">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="{{ route('homepage') }}" style="color:#8b8b8b">home</a></li>
-                            <li class="breadcrumb-item active text-white" aria-current="page">Prennez rendez vous</li>
+                            <li class="breadcrumb-item active text-white" aria-current="page">Prenez rendez vous</li>
                         </ol>
                     </nav>
                 </div>
@@ -41,7 +41,7 @@ Prendre un Rendez vous
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">booking</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Prennez</span> Rendez vous</h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Prenez</span> Rendez vous</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>

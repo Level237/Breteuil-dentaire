@@ -17,7 +17,7 @@ Dr Fabrice Dassie
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="team-single.html" style="color:#8b8b8b">home</a></li>
                             <li class="breadcrumb-item"><a href="{{ route('team') }}" style="color:#8b8b8b">Notre Equipe</a></li>
-                            <li class="breadcrumb-item active text-white" aria-current="{{ route('team.dassie') }}">Dr.Johan Joe</li>
+                            <li class="breadcrumb-item active text-white" aria-current="{{ route('team.dassie') }}">Dr.Fabrice Dassie</li>
                         </ol>
                     </nav>
                 </div>

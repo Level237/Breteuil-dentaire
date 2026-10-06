@@ -198,7 +198,7 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">contactez nous</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Prennez rendez vous </span>pour une
+                            <h2 class="text-anime-style-2" data-cursor="-opaque"><span>Prenez rendez vous </span>pour une
                                 chirugie</h2>
                         </div>
                         <!-- Section Title End -->
@@ -274,7 +274,7 @@
 
                         <!-- Footer Appointment Button Start  -->
                         <div class="contact-appointment-btn wow fadeInUp" data-wow-delay="1s">
-                            <a href="#" class="btn-default">Prendre un rendez-vous</a>
+                           <a href="https://www.doctolib.fr/cabinet-dentaire/breteuil/cabinet-dentaire-de-l-abbaye-de-breteuil" target="_blank" class="btn-default">Prendre un rendez-vous</a>
                         </div>
                         <!-- Footer Appointment Button End  -->
                     </div>
