@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\Admin\AuthController;
+use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\GalleryController;
 use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\GaleryController;
@@ -44,3 +47,19 @@ Route::get('prenez-rendez-vous',[AppointmentController::class,'appointment'])->n
 Route::post('prenez-rendez-vous',[AppointmentController::class,'store'])->name('store.appointment');
 Route::get('/services',[ServiceController::class,'index'])->name('service.index');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');
+
+Route::prefix('admin')->name('admin.')->group(function () {
+    Route::middleware('guest')->group(function () {
+        Route::get('login', [AuthController::class, 'create'])->name('login');
+        Route::post('login', [AuthController::class, 'store'])->middleware('throttle:5,1')->name('login.store');
+    });
+
+    Route::middleware(['auth', 'admin'])->group(function () {
+        Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+        Route::post('logout', [AuthController::class, 'destroy'])->name('logout');
+        Route::resource('galeries', GalleryController::class)
+            ->except(['show'])
+            ->parameters(['galeries' => 'gallery']);
+        Route::view('personnel', 'admin.coming-soon', ['title' => 'Personnel'])->name('personnel.index');
+    });
+});

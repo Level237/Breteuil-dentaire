@@ -2,12 +2,18 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Models\Gallery;
+use Illuminate\View\View;
 
 class GaleryController extends Controller
 {
-    public function index(){
+    public function index(): View
+    {
+        $galleries = Gallery::query()
+            ->orderBy('sort_order')
+            ->orderBy('id')
+            ->get();
 
-        return view('galeries');
+        return view('galeries', compact('galleries'));
     }
 }
