@@ -10,8 +10,8 @@
             <p>Espace de gestion opérationnelle du cabinet dentaire de l'Abbaye de Breteuil.</p>
         </div>
         <div class="admin-dashboard-hero-meta">
-            <span class="admin-chip">Version Vitrine + Gestion</span>
-            <span class="admin-chip admin-chip-accent">Lot Galeries & Personnel</span>
+            <span class="admin-chip">{{ $stats['services_count'] ?? 0 }} services</span>
+            <span class="admin-chip admin-chip-accent">Galeries, personnel &amp; services</span>
         </div>
     </div>
 
@@ -56,10 +56,10 @@
         <div class="admin-bento-card">
             <div class="admin-bento-header">
                 <div>
-                    <span class="admin-bento-tag admin-bento-tag-warning">Étape suivante</span>
+                    <span class="admin-bento-tag">Module Actif</span>
                     <h3>Personnel</h3>
                 </div>
-                <div class="admin-bento-stat-num">3</div>
+                <div class="admin-bento-stat-num">{{ $stats['personnel_count'] ?? 0 }}</div>
             </div>
             <p class="admin-bento-desc">
                 Gestion des praticiens et assistants du cabinet : Dr Dassie, Dr Aboulker, Dr Nana Lowe.
@@ -71,7 +71,7 @@
             </div>
             <div class="admin-bento-actions">
                 <a href="{{ route('admin.personnel.index') }}" class="admin-btn-secondary">
-                    <span>Voir le module</span>
+                    <span>Gérer l'équipe ({{ $stats['personnel_count'] ?? 0 }})</span>
                 </a>
             </div>
         </div>

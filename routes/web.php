@@ -3,6 +3,8 @@
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\GalleryController;
+use App\Http\Controllers\Admin\ServiceController as AdminServiceController;
+use App\Http\Controllers\Admin\TeamMemberController;
 use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\GaleryController;
@@ -27,20 +29,28 @@ Route::get('/le-cabinet/notre-equipe',[TeamController::class,'teamList'])->name(
 Route::get('/le-cabinet/docteur-dassie-fabrice',[TeamController::class,'dassie'])->name('team.dassie');
 Route::get('/le-cabinet/docteur-aboulker-mickael',[TeamController::class,'michael'])->name('team.michael');
 Route::get('/le-cabinet/visite-cabinet',[GaleryController::class,'index'])->name('visite-cabinet');
-Route::get('/urgence-dentaire',[PageController::class,'urgence'])->name('urgence-dentaire');
-Route::get('/protheses-dentaires',[PageController::class,'protese'])->name('proteses-dentaires');
-Route::get('implant-dentaire',[PageController::class,'implant'])->name('implant-dentaire');
-Route::get('remplacer-dent',[PageController::class,'oneDent'])->name('remplacer-dent');
-Route::get('remplacer-plusieurs-dents',[PageController::class,'moreDent'])->name('remplacer-plusieurs-dents');
-Route::get('remplacer-toutes-ces-dents',[PageController::class,'allDent'])->name('remplacer-toutes-dents');
-Route::get('chirurgie-pre-implantaire',[PageController::class,'chirugie'])->name('chirurgie-pre-implantaire');
-Route::get('conseils-post-operatiores',[PageController::class,'conseils'])->name('conseils');
+Route::get('/le-cabinet/{slug}', [TeamController::class, 'show'])->name('team.show');
 Route::get('faq',[PageController::class,'faq'])->name('faq');
-Route::get('eclaircissement-dentaire',[PageController::class,'eclair'])->name('eclaircissement');
-Route::get('esthetique-sourire',[PageController::class,'esthetique'])->name('esthetique.sourire');
-Route::get('facette-dentaire',[PageController::class,'facette'])->name('facette-dentaire');
-Route::get('facette-pelliculaire',[PageController::class,'facettePelliculaire'])->name('facette-pelliculaire');
-Route::get('dentisterie-numerique',[PageController::class,'dentisterie'])->name('dentisterie-numerique');
+
+$legacyServiceRoutes = [
+    'urgence-dentaire' => 'urgence-dentaire',
+    'protheses-dentaires' => 'proteses-dentaires',
+    'implant-dentaire' => 'implant-dentaire',
+    'remplacer-dent' => 'remplacer-dent',
+    'remplacer-plusieurs-dents' => 'remplacer-plusieurs-dents',
+    'remplacer-toutes-ces-dents' => 'remplacer-toutes-dents',
+    'chirurgie-pre-implantaire' => 'chirurgie-pre-implantaire',
+    'conseils-post-operatiores' => 'conseils',
+    'eclaircissement-dentaire' => 'eclaircissement',
+    'esthetique-sourire' => 'esthetique.sourire',
+    'facette-dentaire' => 'facette-dentaire',
+    'facette-pelliculaire' => 'facette-pelliculaire',
+    'dentisterie-numerique' => 'dentisterie-numerique',
+];
+
+foreach ($legacyServiceRoutes as $uri => $name) {
+    Route::get($uri, [ServiceController::class, 'show'])->defaults('slug', $uri)->name($name);
+}
 Route::get('contact',[ContactController::class,'contactView'])->name('contact.view');
 Route::post('contact',[ContactController::class,'send'])->name('send.contact');
 Route::get('prenez-rendez-vous',[AppointmentController::class,'appointment'])->name('appointment');
@@ -60,6 +70,14 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::resource('galeries', GalleryController::class)
             ->except(['show'])
             ->parameters(['galeries' => 'gallery']);
-        Route::view('personnel', 'admin.coming-soon', ['title' => 'Personnel'])->name('personnel.index');
+        Route::resource('personnel', TeamMemberController::class)
+            ->except(['show'])
+            ->parameters(['personnel' => 'personnel']);
+        Route::post('services/images', [AdminServiceController::class, 'uploadImage'])->name('services.images');
+        Route::resource('services', AdminServiceController::class)->except(['show']);
     });
 });
+
+Route::get('/{slug}', [ServiceController::class, 'show'])
+    ->where('slug', '[A-Za-z0-9\-]+')
+    ->name('service.show');

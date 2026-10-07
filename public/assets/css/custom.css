@@ -2246,6 +2246,37 @@ footer.main-footer{
 	padding: 100px 0;
 }
 
+.page-header-service {
+	position: relative;
+	overflow: hidden;
+	background: #0e384c;
+	padding: 140px 0 110px;
+}
+
+.page-header-service .page-header-blur {
+	position: absolute;
+	inset: -24px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	filter: blur(10px);
+	transform: scale(1.08);
+	z-index: 0;
+}
+
+.page-header-service::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: linear-gradient(180deg, rgba(14, 56, 76, 0.42) 0%, rgba(14, 56, 76, 0.68) 100%);
+	z-index: 1;
+}
+
+.page-header-service .container {
+	position: relative;
+	z-index: 2;
+}
+
 .page-header-box h1{
 	font-size: 54px;
     font-weight: 700;
@@ -2605,6 +2636,73 @@ footer.main-footer{
 	border-radius: 40px;
 }
 
+.service-featured-image-wide img{
+	width: 100%;
+	max-height: 480px;
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
+	border-radius: 28px;
+	box-shadow: 0 12px 32px rgba(14, 56, 76, 0.08);
+}
+
+.service-single-content-wide {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.service-entry-wide {
+	font-size: 17px;
+	line-height: 1.8;
+	color: #2d3748;
+}
+
+.service-entry-wide h2 {
+	font-size: 32px;
+	font-weight: 800;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: var(--primary-color);
+}
+
+.service-entry-wide h3 {
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 32px;
+	margin-bottom: 16px;
+	color: var(--primary-color);
+}
+
+.service-entry-wide p {
+	margin-bottom: 24px;
+}
+
+.service-entry-wide ul,
+.service-entry-wide ol {
+	margin-bottom: 28px;
+	padding-left: 24px;
+}
+
+.service-entry-wide ul li {
+	margin-bottom: 10px;
+	list-style: disc;
+	padding-left: 6px;
+	width: 100%;
+}
+
+.service-entry-wide ul li:before {
+	display: none;
+}
+
+.service-entry-wide blockquote {
+	border-left: 4px solid var(--accent-color);
+	padding: 12px 20px;
+	margin: 28px 0;
+	background: #f0f7fb;
+	border-radius: 0 12px 12px 0;
+	font-style: italic;
+	color: var(--primary-color);
+}
+
 .service-entry h2{
 	font-size: 44px;
 	margin-bottom: 30px;
@@ -2623,6 +2721,18 @@ footer.main-footer{
 
 .service-entry p:last-child{
 	margin-bottom: 0px;
+}
+
+.service-entry img{
+	max-width: 100%;
+	height: auto;
+	border-radius: 20px;
+	margin: 12px 0;
+}
+
+.service-entry [style*="text-align: center"] img,
+.service-entry p[style*="text-align: center"] img{
+	display: inline-block;
 }
 
 .service-entry ul{

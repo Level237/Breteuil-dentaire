@@ -19,7 +19,8 @@ class GalleryImageCompressor
             return $file->store($directory, 'public');
         }
 
-        $contents = file_get_contents($file->getRealPath());
+        $realPath = $file->getRealPath();
+        $contents = file_get_contents($realPath);
         $source = @imagecreatefromstring($contents);
 
         if ($source === false) {
@@ -27,6 +28,9 @@ class GalleryImageCompressor
                 'image' => 'Le fichier image n’a pas pu être lu. Utilisez un JPEG, PNG ou WebP.',
             ]);
         }
+
+        // Corriger automatiquement l'orientation EXIF si présente (évite que les photos de smartphone tournent)
+        $source = $this->fixExifOrientation($source, $realPath);
 
         if (function_exists('imagepalettetotruecolor') && ! imageistruecolor($source)) {
             imagepalettetotruecolor($source);
@@ -52,5 +56,84 @@ class GalleryImageCompressor
         imagedestroy($source);
 
         return $relativePath;
+    }
+
+    /**
+     * Rétablit l'orientation géométrique correcte d'une photo selon ses métadonnées EXIF.
+     *
+     * @param  \GdImage|resource  $source
+     * @return \GdImage|resource
+     */
+    private function fixExifOrientation($source, string $filePath)
+    {
+        if (! function_exists('exif_read_data') || ! function_exists('imagerotate')) {
+            return $source;
+        }
+
+        $exif = @exif_read_data($filePath);
+        if (! is_array($exif) || empty($exif['Orientation'])) {
+            return $source;
+        }
+
+        $orientation = (int) $exif['Orientation'];
+
+        switch ($orientation) {
+            case 2: // Miroir horizontal
+                if (function_exists('imageflip')) {
+                    imageflip($source, \IMAGE_FLIP_HORIZONTAL);
+                }
+                break;
+            case 3: // Rotation 180°
+                $rotated = imagerotate($source, 180, 0);
+                if ($rotated !== false) {
+                    imagedestroy($source);
+                    $source = $rotated;
+                }
+                break;
+            case 4: // Miroir vertical
+                if (function_exists('imageflip')) {
+                    imageflip($source, \IMAGE_FLIP_VERTICAL);
+                }
+                break;
+            case 5: // Miroir horizontal + rotation 90° anti-horaire
+                $rotated = imagerotate($source, -90, 0);
+                if ($rotated !== false) {
+                    imagedestroy($source);
+                    $source = $rotated;
+                    if (function_exists('imageflip')) {
+                        imageflip($source, \IMAGE_FLIP_HORIZONTAL);
+                    }
+                }
+                break;
+            case 6: // Rotation 90° horaire (smartphone tenu à la verticale)
+                $rotated = imagerotate($source, -90, 0);
+                if ($rotated !== false) {
+                    imagedestroy($source);
+                    $source = $rotated;
+                }
+                break;
+            case 7: // Miroir horizontal + rotation 90° horaire
+                $rotated = imagerotate($source, 90, 0);
+                if ($rotated !== false) {
+                    imagedestroy($source);
+                    $source = $rotated;
+                    if (function_exists('imageflip')) {
+                        imageflip($source, \IMAGE_FLIP_HORIZONTAL);
+                    }
+                }
+                break;
+            case 8: // Rotation 90° anti-horaire (270° horaire)
+                $rotated = imagerotate($source, 90, 0);
+                if ($rotated !== false) {
+                    imagedestroy($source);
+                    $source = $rotated;
+                }
+                break;
+            default:
+                // Orientation 1 : normale, aucune modification
+                break;
+        }
+
+        return $source;
     }
 }

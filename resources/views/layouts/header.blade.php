@@ -2,17 +2,14 @@
     <div class="header-sticky">
         <nav class="navbar navbar-expand-lg">
             <div  class="container">
-                <!-- Logo Start -->
                 <a class="navbar-brand" href="{{ route('homepage') }}">
                     <img src="{{ asset('assets/images/logo.svg') }}" alt="Logo">
                 </a>
-                <!-- Logo End -->
 
-                <!-- Main Menu Start -->
-                <div   class="collapse navbar-collapse main-menu">
+                <div class="collapse navbar-collapse main-menu">
                     <div class="nav-menu-wrapper">
                         <ul class="navbar-nav mr-auto" id="menu">
-                            <li class="nav-item submenu" ><a class="nav-link" style="font-size: 14px" href="#">Le Cabinet</a>
+                            <li class="nav-item submenu"><a class="nav-link" style="font-size: 14px" href="#">Le Cabinet</a>
                                 <ul class="sub-menu">
                                     <li class="nav-item"><a class="nav-link" href="{{ route('team') }}">Notre Equipe</a></li>
                                     <li class="nav-item"><a class="nav-link" href="{{ route('team.dassie') }}">Dr Fabrice DASSIE</a></li>
@@ -20,37 +17,32 @@
                                     <li class="nav-item"><a class="nav-link" href="{{ route('visite-cabinet') }}">Visite du Cabinet</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item"><a style="font-size: 14px" class="nav-link" href="{{ route('urgence-dentaire') }}">Urgences dentaires</a></li>
-                            <li class="nav-item"><a style="font-size: 14px" class="nav-link" href="{{ route('proteses-dentaires') }}">Prothèses dentaires</a></li>
-                            <li class="nav-item submenu"><a style="font-size: 14px" class="nav-link" href="#">Implantologie</a>
-                                <ul>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('implant-dentaire') }}">Implant dentaire</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('remplacer-dent') }}">Remplacer une dent</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('remplacer-plusieurs-dents') }}">Remplacer plusieurs dents</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('remplacer-toutes-dents') }}">Remplacer toute les dents</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('chirurgie-pre-implantaire') }}">Chirugie pré-implantaire</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('conseils') }}">Conseils Post-Opératoire</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('faq') }}">FAQ</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item submenu"><a style="font-size: 14px" class="nav-link" href="#">Esthétique</a>
-                                <ul>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('eclaircissement') }}">Eclaircissement dentaire</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('esthetique.sourire') }}">Esthetique du sourire</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('facette-dentaire') }}">Facette dentaire</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('facette-pelliculaire') }}">Facette pelliculaire</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item"><a style="font-size: 14px" class="nav-link" href="{{ route('dentisterie-numerique') }}">Dentisterie numérique</a></li>
 
-                            <li class="nav-item highlighted-menu"><a class="nav-link" href="appointment.html">Prendre un rendez-vous</a></li>
+                            @php
+                                $menuServices = $navServices ?? collect();
+                            @endphp
+
+                            @foreach (\App\Models\Service::CATEGORIES as $categoryKey => $categoryLabel)
+                                @php
+                                    $items = $menuServices->get($categoryKey, collect());
+                                @endphp
+                                @if ($items->isNotEmpty())
+                                    <li class="nav-item submenu">
+                                        <a class="nav-link" style="font-size: 14px" href="{{ route('service.index') }}">{{ $categoryLabel }}</a>
+                                        <ul class="sub-menu">
+                                            @foreach ($items as $item)
+                                                <li class="nav-item"><a class="nav-link" href="{{ $item->publicUrl() }}">{{ $item->title }}</a></li>
+                                            @endforeach
+                                        </ul>
+                                    </li>
+                                @endif
+                            @endforeach
+
+                            <li class="nav-item"><a style="font-size: 14px" class="nav-link" href="{{ route('faq') }}">FAQ</a></li>
+                            <li class="nav-item highlighted-menu"><a class="nav-link" href="{{ route('appointment') }}">Prendre un rendez-vous</a></li>
                         </ul>
                     </div>
-                    <!-- Let’s Start Button Start -->
-
-                    <!-- Let’s Start Button End -->
                 </div>
-                <!-- Main Menu End -->
                 <div class="navbar-toggle"></div>
             </div>
         </nav>

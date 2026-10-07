@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="robots" content="noindex, nofollow">
     <title>@yield('title', 'Administration') — Breteuil Dentaire</title>
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
@@ -45,6 +46,18 @@
                         </svg>
                     </span>
                     <span class="admin-nav-text">Galeries</span>
+                </a>
+
+                <a href="{{ route('admin.services.index') }}" class="admin-nav-item {{ request()->routeIs('admin.services.*') ? 'is-active' : '' }}">
+                    <span class="admin-nav-icon">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            <line x1="8" y1="7" x2="16" y2="7"></line>
+                            <line x1="8" y1="11" x2="14" y2="11"></line>
+                        </svg>
+                    </span>
+                    <span class="admin-nav-text">Services</span>
                 </a>
 
                 <a href="{{ route('admin.personnel.index') }}" class="admin-nav-item {{ request()->routeIs('admin.personnel.*') ? 'is-active' : '' }}">
@@ -174,5 +187,7 @@
             }
         })();
     </script>
+    @yield('scripts')
+    <script src="{{ asset('assets/js/admin-cropper.js') }}?v={{ filemtime(public_path('assets/js/admin-cropper.js')) }}"></script>
 </body>
 </html>

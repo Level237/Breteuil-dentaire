@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Gallery;
+use App\Models\Service;
+use App\Models\TeamMember;
 use Illuminate\View\View;
 
 class DashboardController extends Controller
@@ -12,7 +14,8 @@ class DashboardController extends Controller
     {
         $stats = [
             'galleries_count' => Gallery::count(),
-            'personnel_count' => 0,
+            'personnel_count' => TeamMember::count(),
+            'services_count' => Service::count(),
         ];
 
         $latestGalleries = Gallery::query()

@@ -32,146 +32,22 @@
     <div class="page-services">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp">
-
-                        <div class="service-body">
-                            <h3>Urgences dentaires</h3>
-                        </div>
-                        <div class="read-more-btn">
-                            <a href="{{ route('urgence-dentaire') }}">Voir plus</a>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-body">
-                            <h3>Protèses dentaires</h3>
-                        </div>
-                        <div class="read-more-btn">
-                            <a href="{{ route('proteses-dentaires') }}">Voir plus</a>
+                @forelse ($services as $service)
+                    <div class="col-lg-3 col-md-6">
+                        <div class="service-item wow fadeInUp">
+                            <div class="service-body">
+                                <h3>{{ $service->title }}</h3>
+                            </div>
+                            <div class="read-more-btn">
+                                <a href="{{ $service->publicUrl() }}">Voir plus</a>
+                            </div>
                         </div>
                     </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-body">
-                            <h3>Implantologie</h3>
-                        </div>
-                        <div class="read-more-btn">
-                            <a href="{{ route('implant-dentaire') }}">Voir plus</a>
-                        </div>
+                @empty
+                    <div class="col-12">
+                        <p>Les services du cabinet seront bientôt affichés ici.</p>
                     </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-body">
-                            <h3>Eclaircissement dentaire</h3>
-                        </div>
-                        <div class="read-more-btn">
-                            <a href="{{ route('eclaircissement') }}">Voir plus</a>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="service-body">
-                            <h3>Esthetique du sourire</h3>
-                        </div>
-                        <div class="read-more-btn">
-                            <a href="{{ route('esthetique.sourire') }}">Voir plus</a>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="1s">
-                        <div class="service-body">
-                            <h3>Facette dentaire</h3>
-                        </div>
-                        <div class="read-more-btn">
-                            <a href="{{ route('facette-dentaire') }}">Voir plus</a>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="1.2s">
-                        <div class="service-body">
-                            <h3>Facette pelliculaire</h3>
-                        </div>
-                        <div class="read-more-btn">
-                            <a href="{{ route('facette-pelliculaire') }}">Voir plus</a>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="1.4s">
-                        <div class="service-body">
-                            <h3>Dentisterie numérique</h3>
-                        </div>
-                        <div class="read-more-btn">
-                            <a href="{{ route('dentisterie-numerique') }}">Voir plus</a>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="1.4s">
-                        <div class="service-body">
-                            <h3>Orthodontie</h3>
-                        </div>
-                        <div class="read-more-btn">
-                            <a href="{{ route('esthetique.sourire') }}">Voir plus</a>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="1.4s">
-                        <div class="service-body">
-                            <h3>Aligneurs invisibles</h3>
-                        </div>
-                        <div class="read-more-btn">
-                            <a href="{{ route('esthetique.sourire') }}">Voir plus</a>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <!-- Service Item Start -->
-                    <div class="service-item wow fadeInUp" data-wow-delay="1.4s">
-                        <div class="service-body">
-                            <h3>Odontologie pédiatrique</h3>
-                        </div>
-                        <div class="read-more-btn">
-                            <a href="{{ route('esthetique.sourire') }}">Voir plus</a>
-                        </div>
-                    </div>
-                    <!-- Service Item End -->
-                </div>
+                @endforelse
             </div>
         </div>
     </div>
