@@ -40,6 +40,8 @@
                                     <img src="{{ $gallery->url }}" alt="{{ $gallery->alt }}">
                                 </figure>
                             </a>
+
+                            <p></p>
                         </div>
                     </div>
                 @empty

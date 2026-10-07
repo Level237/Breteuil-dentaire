@@ -5296,4 +5296,24 @@ footer.main-footer{
 	.error-page-content-heading h2{
         font-size: 28px;
     }
+
+	.our-gallery-page{
+		padding: 36px 0 16px;
+	}
+
+	.photo-gallery{
+		margin-bottom: 16px;
+		border-radius: 12px;
+	}
+
+	.photo-gallery figure::before,
+	.photo-gallery img{
+		border-radius: 12px;
+	}
+
+	.photo-gallery figure::after{
+		width: 44px;
+		height: 44px;
+		background-size: 24px auto;
+	}
 }
