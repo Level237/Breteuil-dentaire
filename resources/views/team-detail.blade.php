@@ -4,8 +4,8 @@
 {{ $member->name }}
 @endsection
 @section("meta_title", $member->name)
-@section("meta_description", "Breteuil dentaire — " . $member->name . " (" . $member->role . ")")
-@section("meta_image", $member->photo_url ?? asset('assets/images/service-entry-img-1.jpg'))
+@section("meta_description", "Breteuil dentaire - " . $member->name . " (" . $member->role . ")")
+@section("meta_image", $member->photo_url ?? asset('assets/images/accueil.jpeg'))
 
 @section("main")
 <div class="page-header" style="background: linear-gradient(135deg, #0e384c 0%, #1e84b5 100%); background-size: cover; height: 100%;">

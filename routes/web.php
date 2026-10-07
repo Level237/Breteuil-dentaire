@@ -2,7 +2,9 @@
 
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\FaqController as AdminFaqController;
 use App\Http\Controllers\Admin\GalleryController;
+use App\Http\Controllers\Admin\PageMetaController;
 use App\Http\Controllers\Admin\ServiceController as AdminServiceController;
 use App\Http\Controllers\Admin\TeamMemberController;
 use App\Http\Controllers\AppointmentController;
@@ -49,13 +51,18 @@ $legacyServiceRoutes = [
 ];
 
 foreach ($legacyServiceRoutes as $uri => $name) {
-    Route::get($uri, [ServiceController::class, 'show'])->defaults('slug', $uri)->name($name);
+    Route::get($uri, function () use ($uri) {
+        return redirect()->route('service.show', $uri, 301);
+    })->name($name);
 }
 Route::get('contact',[ContactController::class,'contactView'])->name('contact.view');
 Route::post('contact',[ContactController::class,'send'])->name('send.contact');
 Route::get('prenez-rendez-vous',[AppointmentController::class,'appointment'])->name('appointment');
 Route::post('prenez-rendez-vous',[AppointmentController::class,'store'])->name('store.appointment');
 Route::get('/services',[ServiceController::class,'index'])->name('service.index');
+Route::get('/services/{slug}', [ServiceController::class, 'show'])
+    ->where('slug', '[A-Za-z0-9\-]+')
+    ->name('service.show');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');
 
 Route::prefix('admin')->name('admin.')->group(function () {
@@ -75,9 +82,13 @@ Route::prefix('admin')->name('admin.')->group(function () {
             ->parameters(['personnel' => 'personnel']);
         Route::post('services/images', [AdminServiceController::class, 'uploadImage'])->name('services.images');
         Route::resource('services', AdminServiceController::class)->except(['show']);
+        Route::resource('faqs', AdminFaqController::class)->except(['show']);
+        Route::get('seo', [PageMetaController::class, 'index'])->name('seo.index');
+        Route::get('seo/{page_meta}/edit', [PageMetaController::class, 'edit'])->name('seo.edit');
+        Route::put('seo/{page_meta}', [PageMetaController::class, 'update'])->name('seo.update');
     });
 });
 
-Route::get('/{slug}', [ServiceController::class, 'show'])
-    ->where('slug', '[A-Za-z0-9\-]+')
-    ->name('service.show');
+Route::get('/{slug}', function (string $slug) {
+    return redirect()->route('service.show', $slug, 301);
+})->where('slug', '[A-Za-z0-9\-]+');

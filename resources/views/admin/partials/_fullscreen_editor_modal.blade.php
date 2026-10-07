@@ -93,7 +93,7 @@
                 <div class="image-inspector-thumbnail">
                     <img id="inspectorThumbImg" src="" alt="Aperçu sélection">
                     <div class="image-inspector-dimensions">
-                        <span id="inspectorNaturalDimensions">—</span>
+                        <span id="inspectorNaturalDimensions">-</span>
                     </div>
                 </div>
 

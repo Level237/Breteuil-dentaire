@@ -3,9 +3,6 @@
 @section('title')
     Cabinet dentaire de la MSP de l'abbaye de Breteuil
 @endsection
-@section("meta_title", "Breteuil dentaire")
-@section("meta_description", "Breteuil dentaire - Cabinet dentaire de la MSP de l'abbaye de Breteuil")
-@section("meta_image", asset('assets/images/logo.svg'))
 @section('main')
     <div class="hero bg-image parallaxie">
         <div class="container">

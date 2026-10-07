@@ -42,6 +42,7 @@ class Service extends Model
         'featured_image',
         'meta_title',
         'meta_description',
+        'meta_image',
         'excerpt',
         'body',
         'sort_order',
@@ -73,9 +74,16 @@ class Service extends Model
         return $this->resolveMediaUrl($this->featured_image);
     }
 
+    public function getMetaImageUrlAttribute(): ?string
+    {
+        return $this->resolveMediaUrl($this->meta_image)
+            ?? $this->featured_url
+            ?? $this->hero_url;
+    }
+
     public function publicUrl(): string
     {
-        return url('/'.$this->slug);
+        return route('service.show', $this->slug);
     }
 
     private function resolveMediaUrl(?string $path): ?string

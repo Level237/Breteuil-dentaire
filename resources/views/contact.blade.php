@@ -4,9 +4,6 @@
     Contact
 @endsection
 
-@section("meta_title", "Contact")
-@section("meta_description", "Contact - Breteuil dentaire")
-@section("meta_image", asset('assets/images/protese.jpg'))
 @section('main')
     <div class="page-header"
         style="background-image: url({{ asset('assets/images/protese.jpg') }});background-size:cover;height:100%;background-position:bottom">

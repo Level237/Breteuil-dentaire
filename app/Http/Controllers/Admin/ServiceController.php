@@ -67,6 +67,10 @@ class ServiceController extends Controller
             $data['featured_image'] = $this->storeImage($request->file('featured_image'));
         }
 
+        if ($request->hasFile('meta_image')) {
+            $data['meta_image'] = $this->storeImage($request->file('meta_image'));
+        }
+
         Service::query()->create($data);
 
         return redirect()
@@ -99,6 +103,14 @@ class ServiceController extends Controller
             $data['featured_image'] = $this->storeImage($request->file('featured_image'));
         }
 
+        if ($request->boolean('remove_meta_image') && ! $request->hasFile('meta_image')) {
+            $this->deleteStoredImage($service->meta_image);
+            $data['meta_image'] = null;
+        } elseif ($request->hasFile('meta_image')) {
+            $this->deleteStoredImage($service->meta_image);
+            $data['meta_image'] = $this->storeImage($request->file('meta_image'));
+        }
+
         $service->update($data);
 
         return redirect()
@@ -110,6 +122,7 @@ class ServiceController extends Controller
     {
         $this->deleteStoredImage($service->hero_image);
         $this->deleteStoredImage($service->featured_image);
+        $this->deleteStoredImage($service->meta_image);
         $service->delete();
 
         return redirect()

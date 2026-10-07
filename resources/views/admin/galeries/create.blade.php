@@ -17,7 +17,7 @@
                         <polyline points="21 15 16 10 5 21"></polyline>
                     </svg>
                     <span><strong>Cliquez ou glissez</strong> une photo</span>
-                    <small>JPEG, PNG, WebP (8 Mo max) — Recadrage direct disponible</small>
+                    <small>JPEG, PNG, WebP (8 Mo max) - Recadrage direct disponible</small>
                 </div>
                 <input id="image" type="file" name="image" accept="image/jpeg,image/png,image/webp" required class="admin-dropzone-input">
             </div>

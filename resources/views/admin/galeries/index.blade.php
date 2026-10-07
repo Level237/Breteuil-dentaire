@@ -16,7 +16,7 @@
             @foreach ($galleries as $gallery)
                 <article class="admin-gallery-card">
                     <img src="{{ $gallery->url }}" alt="{{ $gallery->alt }}">
-                    <p class="admin-gallery-alt"><strong>Alt</strong> — {{ $gallery->alt }}</p>
+                    <p class="admin-gallery-alt"><strong>Alt</strong> - {{ $gallery->alt }}</p>
                     <p class="admin-gallery-meta">Ordre {{ $gallery->sort_order }}</p>
                     <div class="admin-gallery-actions">
                         <a href="{{ route('admin.galeries.edit', $gallery) }}">Modifier</a>

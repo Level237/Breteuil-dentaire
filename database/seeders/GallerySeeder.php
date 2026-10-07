@@ -44,7 +44,7 @@ class GallerySeeder extends Seeder
 
                 Gallery::query()->create([
                     'path' => $path,
-                    'alt' => 'Visite du cabinet dentaire de l’Abbaye de Breteuil — '.$label,
+                    'alt' => 'Visite du cabinet dentaire de l’Abbaye de Breteuil - '.$label,
                     'sort_order' => $order,
                 ]);
 

@@ -68,14 +68,15 @@ class AdminServiceTest extends TestCase
             ->assertOk()
             ->assertSee('Implant dentaire');
 
-        $this->get(route('implant-dentaire'))
+        $this->get(route('service.show', $service->slug))
             ->assertOk()
             ->assertSee('Implant dentaire')
             ->assertSee('Une racine artificielle en titane.');
 
-        $this->get(route('service.show', $service->slug))
-            ->assertOk()
-            ->assertSee('Implant dentaire');
+        $this->assertSame(url('/services/implant-dentaire'), $service->publicUrl());
+
+        $this->get('/implant-dentaire')
+            ->assertRedirect('/services/implant-dentaire');
     }
 
     public function test_unpublished_service_is_hidden(): void

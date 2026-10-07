@@ -40,7 +40,7 @@
                             </td>
                             <td>{{ $service->category_label }}</td>
                             <td>
-                                <a href="{{ $service->publicUrl() }}" target="_blank" class="admin-link-code">/{{ $service->slug }} ↗</a>
+                                <a href="{{ $service->publicUrl() }}" target="_blank" class="admin-link-code">/services/{{ $service->slug }} ↗</a>
                             </td>
                             <td>
                                 @if ($service->is_published)

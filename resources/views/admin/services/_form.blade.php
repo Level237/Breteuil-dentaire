@@ -38,10 +38,26 @@
                 @error('meta_title')<p class="admin-error">{{ $message }}</p>@enderror
             </div>
 
-            <div class="admin-field" style="margin-bottom: 0;">
+            <div class="admin-field">
                 <label for="meta_description">Description pour les moteurs de recherche</label>
                 <textarea id="meta_description" name="meta_description" rows="2" class="admin-textarea" maxlength="255" placeholder="Description courte (1 à 2 phrases) pour Google...">{{ old('meta_description', $service?->meta_description ?? '') }}</textarea>
                 @error('meta_description')<p class="admin-error">{{ $message }}</p>@enderror
+            </div>
+
+            <div class="admin-field" style="margin-bottom: 0;">
+                <label for="meta_image">Image de partage (Open Graph)</label>
+                @if ($service?->meta_image_url)
+                    <img class="admin-form-preview" src="{{ $service->meta_image_url }}" alt="Image SEO" style="max-width: 220px; border-radius: 10px; margin: 8px 0;">
+                @endif
+                <input id="meta_image" type="file" name="meta_image" accept="image/jpeg,image/png,image/webp">
+                <p class="admin-help">Optionnel. Sinon l’image mise en avant (ou le bandeau) est utilisée pour les partages.</p>
+                @error('meta_image')<p class="admin-error">{{ $message }}</p>@enderror
+                @if ($service?->meta_image)
+                    <div class="admin-check" style="margin-top: 10px;">
+                        <input id="remove_meta_image" type="checkbox" name="remove_meta_image" value="1">
+                        <label for="remove_meta_image">Retirer l’image de partage dédiée</label>
+                    </div>
+                @endif
             </div>
         </div>
     </div>
@@ -71,7 +87,7 @@
             <div class="admin-field" style="margin-bottom: 14px;">
                 <label for="slug">Adresse web (URL slug)</label>
                 <input id="slug" type="text" name="slug" value="{{ old('slug', $service?->slug ?? '') }}" maxlength="180" placeholder="ex: implant-dentaire">
-                <p class="admin-help">Générée automatiquement si laissée vide.</p>
+                <p class="admin-help">Adresse publique : <code>/services/…</code> - générée automatiquement si laissée vide.</p>
                 @error('slug')<p class="admin-error">{{ $message }}</p>@enderror
             </div>
 

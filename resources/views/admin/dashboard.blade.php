@@ -11,7 +11,8 @@
         </div>
         <div class="admin-dashboard-hero-meta">
             <span class="admin-chip">{{ $stats['services_count'] ?? 0 }} services</span>
-            <span class="admin-chip admin-chip-accent">Galeries, personnel &amp; services</span>
+            <span class="admin-chip">{{ $stats['faqs_count'] ?? 0 }} FAQ</span>
+            <span class="admin-chip admin-chip-accent">Galeries, personnel, services &amp; FAQ</span>
         </div>
     </div>
 
@@ -72,6 +73,24 @@
             <div class="admin-bento-actions">
                 <a href="{{ route('admin.personnel.index') }}" class="admin-btn-secondary">
                     <span>Gérer l'équipe ({{ $stats['personnel_count'] ?? 0 }})</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="admin-bento-card">
+            <div class="admin-bento-header">
+                <div>
+                    <span class="admin-bento-tag">Module Actif</span>
+                    <h3>FAQ</h3>
+                </div>
+                <div class="admin-bento-stat-num">{{ $stats['faqs_count'] ?? 0 }}</div>
+            </div>
+            <p class="admin-bento-desc">
+                Questions / réponses affichées sur la page publique FAQ, regroupées par catégorie.
+            </p>
+            <div class="admin-bento-actions">
+                <a href="{{ route('admin.faqs.index') }}" class="admin-btn-secondary">
+                    <span>Gérer les FAQ ({{ $stats['faqs_count'] ?? 0 }})</span>
                 </a>
             </div>
         </div>

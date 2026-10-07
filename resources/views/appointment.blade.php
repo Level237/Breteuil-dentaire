@@ -3,9 +3,6 @@
 @section('title')
 Prendre un Rendez vous
 @endsection
-@section("meta_title","Prenez un rendez-vous")
-@section("meta_description","Breteuil dentaire - Prenez un rendez-vous")
-@section("meta_image",asset('assets/images/dental-process-img-1.jpg'))
 @section('main')
 <div class="page-header" style="background-image: url({{ asset('assets/images/protese.jpg') }});background-size:cover;height:100%;background-position:bottom">
     <div class="container">

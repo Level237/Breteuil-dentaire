@@ -18,6 +18,8 @@
                                 </ul>
                             </li>
 
+                            <li class="nav-item"><a style="font-size: 14px" class="nav-link" href="{{ route('service.index') }}">Services</a></li>
+
                             @php
                                 $menuServices = $navServices ?? collect();
                             @endphp

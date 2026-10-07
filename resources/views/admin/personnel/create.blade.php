@@ -42,7 +42,7 @@
                         <circle cx="12" cy="7" r="4"></circle>
                     </svg>
                     <span><strong>Cliquez ou glissez</strong> le portrait</span>
-                    <small>JPEG, PNG, WebP — Recadrage direct disponible</small>
+                    <small>JPEG, PNG, WebP - Recadrage direct disponible</small>
                 </div>
                 <input id="photo" type="file" name="photo" accept="image/jpeg,image/png,image/webp" class="admin-dropzone-input">
             </div>

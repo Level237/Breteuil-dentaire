@@ -45,4 +45,9 @@ class TeamMember extends Model
 
         return Storage::disk('public')->url($this->photo);
     }
+
+    public function publicUrl(): string
+    {
+        return route('team.show', $this->slug);
+    }
 }

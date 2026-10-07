@@ -9,13 +9,14 @@ class ServiceController extends Controller
 {
     public function index(): View
     {
-        $services = Service::query()
+        $servicesByCategory = Service::query()
             ->published()
             ->orderBy('sort_order')
             ->orderBy('id')
-            ->get();
+            ->get()
+            ->groupBy('category');
 
-        return view('services', compact('services'));
+        return view('services', compact('servicesByCategory'));
     }
 
     public function show(string $slug): View

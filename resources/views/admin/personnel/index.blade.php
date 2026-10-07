@@ -50,7 +50,7 @@
                                 @if(!empty($member->diplomas))
                                     <span class="admin-pill-neutral">{{ count($member->diplomas) }} diplômes</span>
                                 @else
-                                    <span class="admin-text-muted">—</span>
+                                    <span class="admin-text-muted">-</span>
                                 @endif
                             </td>
                             <td>

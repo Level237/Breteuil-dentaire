@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Faq;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -44,9 +45,17 @@ class PageController extends Controller
         return view("conseil-post-operatoire");
     }
 
-    public function faq(){
+    public function faq()
+    {
+        $faqGroups = Faq::query()
+            ->published()
+            ->orderBy('category')
+            ->orderBy('sort_order')
+            ->orderBy('id')
+            ->get()
+            ->groupBy('category');
 
-        return view('faqs');
+        return view('faqs', compact('faqGroups'));
     }
 
     public function eclair(){

@@ -1,113 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
     <url>
-        <loc>https://www.breteuildentaire.fr</loc>
-            <changefreq>daily</changefreq>
-        <priority>1.0</priority>
+    <loc>https://www.breteuildentaire.fr/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
             </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/le-cabinet/notre-equipe</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+    <loc>https://www.breteuildentaire.fr/le-cabinet/notre-equipe</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
             </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/le-cabinet/docteur-dassie-fabrice</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+    <loc>https://www.breteuildentaire.fr/le-cabinet/visite-cabinet</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
             </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/le-cabinet/docteur-aboulker-mickael</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+    <loc>https://www.breteuildentaire.fr/services</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
             </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/le-cabinet/visite-cabinet</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+    <loc>https://www.breteuildentaire.fr/faq</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
             </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/urgence-dentaire</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
+    <loc>https://www.breteuildentaire.fr/contact</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.9</priority>
             </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/contact</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.9</priority>
+    <loc>https://www.breteuildentaire.fr/prenez-rendez-vous</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
             </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/proteses-dentaires</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/le-cabinet/docteur-dassie-fabrice</loc>
+    <lastmod>2026-10-07T12:09:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/storage/teams/f72f40d4-d776-4c62-9b44-0fc485ac86e8.jpg</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/implant-dentaire</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/le-cabinet/docteur-aboulker-mickael</loc>
+    <lastmod>2026-10-07T12:09:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/storage/teams/0f19a887-ad4e-43a9-af16-cd137d27e34e.jpg</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/remplacer-dent</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/le-cabinet/docteur-nana-lowe-priscile</loc>
+    <lastmod>2026-10-07T12:09:26+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/storage/teams/4400ef45-d317-4235-8832-1f60d416ffd1.jpg</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/remplacer-plusieurs-dents</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/services/urgence-dentaire</loc>
+    <lastmod>2026-10-07T16:24:09+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/assets/images/techonology-img-1.jpg</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/remplacer-toutes-ces-dents</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/services/protheses-dentaires</loc>
+    <lastmod>2026-10-07T16:37:09+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/assets/images/techonology-img-3.jpg</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/chirugie-pre-implantaire</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/services/dentisterie-numerique</loc>
+    <lastmod>2026-10-07T16:39:01+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/assets/images/dentisterie-numerique.png</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>//conseils-post-operatoires</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/services/implant-dentaire</loc>
+    <lastmod>2026-10-07T12:45:32+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/assets/images/Implant-dentaire-Ormoy.png</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/faq</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/services/remplacer-dent</loc>
+    <lastmod>2026-10-07T16:54:51+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/assets/images/Examen-pre-implantaire.jpg</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/eclaircissement-dentaire</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/services/remplacer-plusieurs-dents</loc>
+    <lastmod>2026-10-07T16:59:15+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/assets/images/Mise-en-place-de-l-implant-dentaire.jpg</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/esthetique-sourire</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/services/remplacer-toutes-ces-dents</loc>
+    <lastmod>2026-10-07T17:05:49+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/assets/images/service-single-img.jpg</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/facette-dentaire</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/services/chirurgie-pre-implantaire</loc>
+    <lastmod>2026-10-07T17:07:59+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/assets/images/service-single-img.jpg</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/facette-pelliculaire</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/services/conseils-post-operatiores</loc>
+    <lastmod>2026-10-07T17:09:59+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/assets/images/Implant-dentaire-Ormoy.png</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/dentisterie-numerique</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/services/eclaircissement-dentaire</loc>
+    <lastmod>2026-10-07T17:13:20+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/assets/images/tooth-2414909_1920-1024x350.jpg</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/prenez-rendez-vous</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/services/esthetique-sourire</loc>
+    <lastmod>2026-10-07T17:14:33+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/assets/images/teeth-5120231_640.jpg</image:loc>
+</image:image>
+        </url>
     <url>
-        <loc>https://www.breteuildentaire.fr/services</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-            </url>
+    <loc>https://www.breteuildentaire.fr/services/facette-dentaire</loc>
+    <lastmod>2026-10-07T17:15:07+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/assets/images/Facette-dentaire-Ormoy.jpg</image:loc>
+</image:image>
+        </url>
+    <url>
+    <loc>https://www.breteuildentaire.fr/services/facette-pelliculaire</loc>
+    <lastmod>2026-10-07T17:17:32+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+    <image:loc>https://www.breteuildentaire.fr/assets/images/Facette-dentaire-pelliculaire.png</image:loc>
+</image:image>
+        </url>
 </urlset>

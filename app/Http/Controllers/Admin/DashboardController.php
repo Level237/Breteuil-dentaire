@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Faq;
 use App\Models\Gallery;
 use App\Models\Service;
 use App\Models\TeamMember;
@@ -16,6 +17,7 @@ class DashboardController extends Controller
             'galleries_count' => Gallery::count(),
             'personnel_count' => TeamMember::count(),
             'services_count' => Service::count(),
+            'faqs_count' => Faq::count(),
         ];
 
         $latestGalleries = Gallery::query()

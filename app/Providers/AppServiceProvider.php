@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\PageMeta;
 use App\Models\Service;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\View;
@@ -31,6 +32,21 @@ class AppServiceProvider extends ServiceProvider
                     ->orderBy('id')
                     ->get()
                     ->groupBy('category')
+            );
+        });
+
+        View::composer('layouts.main', function ($view) {
+            if (! Schema::hasTable('page_metas')) {
+                $view->with('pageMeta', null);
+
+                return;
+            }
+
+            $key = PageMeta::keyForRoute(request()->route()?->getName());
+
+            $view->with(
+                'pageMeta',
+                $key ? PageMeta::query()->where('page_key', $key)->first() : null
             );
         });
     }

@@ -1,19 +1,38 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="fr">
 <head>
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <Meta name=" robots " content="index, follow" />
-    <meta name="twitter:card" content="@yield('meta_title')" />
-    <meta name="twitter:site" content="https://www.breteuildentaire.fr" />
-    <meta name="twitter:title" content="@yield('meta_title')" />
-    <meta name="twitter:description" content="@yield('meta_description')" />
-    <meta name="twitter:image" content="@yield('meta_image')" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Page Title -->
-    <title>@yield('title')</title>
+    <meta name="robots" content="index, follow">
+    @php
+        $yieldMetaTitle = trim($__env->yieldContent('meta_title'));
+        $yieldPageTitle = trim(preg_replace('/\s+/', ' ', strip_tags($__env->yieldContent('title'))));
+        $seoTitle = $yieldMetaTitle !== '' ? $yieldMetaTitle : ($pageMeta?->meta_title ?? $yieldPageTitle);
+        $seoTitle = $seoTitle !== '' ? $seoTitle : \App\Support\Seo::SITE_NAME;
+
+        $yieldDescription = trim($__env->yieldContent('meta_description'));
+        $seoDescription = $yieldDescription !== '' ? $yieldDescription : ($pageMeta?->meta_description ?? \App\Support\Seo::DEFAULT_DESCRIPTION);
+
+        $yieldImage = trim($__env->yieldContent('meta_image'));
+        $seoImage = \App\Support\Seo::absoluteImage($yieldImage !== '' ? $yieldImage : ($pageMeta?->image_url));
+        $canonicalUrl = url()->current();
+    @endphp
+    <title>{{ $seoTitle }}</title>
+    <meta name="description" content="{{ $seoDescription }}">
+    <link rel="canonical" href="{{ $canonicalUrl }}">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ \App\Support\Seo::SITE_NAME }}">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:url" content="{{ $canonicalUrl }}">
+    <meta property="og:title" content="{{ $seoTitle }}">
+    <meta property="og:description" content="{{ $seoDescription }}">
+    <meta property="og:image" content="{{ $seoImage }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $seoTitle }}">
+    <meta name="twitter:description" content="{{ $seoDescription }}">
+    <meta name="twitter:image" content="{{ $seoImage }}">
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
 	<!-- Google Fonts Css-->

@@ -4,8 +4,8 @@
 {{ $service->title }}
 @endsection
 @section("meta_title", $service->meta_title ?: $service->title)
-@section("meta_description", $service->meta_description ?: ('Breteuil dentaire — ' . $service->title))
-@section("meta_image", $service->featured_url ?? $service->hero_url ?? asset('assets/images/service-entry-img-1.jpg'))
+@section("meta_description", $service->meta_description ?: ('Breteuil dentaire - ' . $service->title))
+@section("meta_image", $service->meta_image_url ?? asset('assets/images/accueil.jpeg'))
 
 @section('main')
 @php
