@@ -88,9 +88,9 @@
 
                             <div class="cta-appointment-btn">
                                 @if ($member->appointment_url)
-                                    <a href="{{ $member->appointment_url }}" target="_blank" rel="noopener" class="btn-default">Prendre un rendez-vous</a>
+                                    <a href="https://www.doctolib.fr/cabinet-dentaire/breteuil/cabinet-dentaire-de-l-abbaye-de-breteuil" target="_blank" rel="noopener" class="btn-default">Prendre un rendez-vous</a>
                                 @else
-                                    <a href="{{ route('appointment') }}" class="btn-default">Prendre un rendez-vous</a>
+                                    <a href="https://www.doctolib.fr/cabinet-dentaire/breteuil/cabinet-dentaire-de-l-abbaye-de-breteuil" class="btn-default">Prendre un rendez-vous</a>
                                 @endif
                             </div>
                         </div>

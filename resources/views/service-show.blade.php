@@ -31,13 +31,7 @@
     </div>
 </div>
 
-@if ($service->excerpt)
-    <div class="mt-6" style="display: flex; align-items: center; justify-content: center; margin-top: 50px;">
-        <p class="text-center w-75 wow fadeInUp" style="font-size: 19px; line-height: 1.7; color: var(--primary-color); font-weight: 500;">
-            {{ $service->excerpt }}
-        </p>
-    </div>
-@endif
+
 
 <div class="page-service-single">
     <div class="container">
