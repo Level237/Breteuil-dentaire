@@ -197,8 +197,8 @@
         // Right
         ctx.fillRect(cropBox.x + cropBox.w, cropBox.y, canvas.width - (cropBox.x + cropBox.w), cropBox.h);
 
-        // 3. Bordure de la zone de crop (turquoise Breteuil)
-        ctx.strokeStyle = '#1e84b5';
+        // 3. Bordure de la zone de crop (bleu identité)
+        ctx.strokeStyle = '#526F9E';
         ctx.lineWidth = 2;
         ctx.strokeRect(cropBox.x, cropBox.y, cropBox.w, cropBox.h);
 
@@ -241,7 +241,7 @@
     function drawHandles() {
         const handles = getHandles();
         ctx.fillStyle = '#ffffff';
-        ctx.strokeStyle = '#0e384c';
+        ctx.strokeStyle = '#3A5073';
         ctx.lineWidth = 2;
 
         Object.values(handles).forEach(h => {

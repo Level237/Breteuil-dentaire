@@ -27,7 +27,7 @@ class AdminServiceTest extends TestCase
     public function test_guest_cannot_open_services_admin(): void
     {
         $this->get(route('admin.services.index'))
-            ->assertRedirect(route('admin.login'));
+            ->assertNotFound();
     }
 
     public function test_admin_can_create_service(): void

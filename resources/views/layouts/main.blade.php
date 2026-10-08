@@ -36,8 +36,9 @@
 	<!-- Favicon Icon -->
 	<link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/images/favicon.png') }}">
 	<!-- Google Fonts Css-->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 	<!-- Bootstrap Css -->
 	<link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
@@ -54,7 +55,7 @@
 	<!-- Mouse Cursor Css File -->
 	<link rel="stylesheet" href="{{ asset('assets/css/mousecursor.css') }}">
 	<!-- Main Custom Css -->
-	<link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet" media="screen">
+	<link href="{{ asset('assets/css/custom.css') }}?v={{ filemtime(public_path('assets/css/custom.css')) }}" rel="stylesheet" media="screen">
 </head>
 <body>
 

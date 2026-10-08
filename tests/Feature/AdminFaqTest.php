@@ -19,7 +19,7 @@ class AdminFaqTest extends TestCase
     public function test_guest_cannot_open_faq_admin(): void
     {
         $this->get(route('admin.faqs.index'))
-            ->assertRedirect(route('admin.login'));
+            ->assertNotFound();
     }
 
     public function test_admin_can_view_faq_list(): void

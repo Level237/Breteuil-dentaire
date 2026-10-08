@@ -20,7 +20,6 @@
                 <a class="admin-brand" href="{{ route('admin.dashboard') }}">
                     <img src="{{ asset('assets/images/footer-logo.svg') }}" alt="Breteuil Dentaire">
                 </a>
-                <span class="admin-badge-env">Back-Office</span>
             </div>
 
             <div class="admin-nav-section-title">Navigation principale</div>

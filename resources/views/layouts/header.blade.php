@@ -41,7 +41,7 @@
                             @endforeach
 
                             <li class="nav-item"><a style="font-size: 14px" class="nav-link" href="{{ route('faq') }}">FAQ</a></li>
-                            <li class="nav-item highlighted-menu"><a class="nav-link" href="{{ route('appointment') }}">Prendre un rendez-vous</a></li>
+                            <li class="nav-item highlighted-menu"><a class="nav-link" href="https://www.doctolib.fr/cabinet-dentaire/breteuil/cabinet-dentaire-de-l-abbaye-de-breteuil" target="_blank">Prendre un rendez-vous</a></li>
                         </ul>
                     </div>
                 </div>

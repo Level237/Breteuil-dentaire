@@ -27,7 +27,7 @@ class AdminPageMetaTest extends TestCase
     public function test_guest_cannot_open_seo_admin(): void
     {
         $this->get(route('admin.seo.index'))
-            ->assertRedirect(route('admin.login'));
+            ->assertNotFound();
     }
 
     public function test_admin_can_update_page_meta_title_and_image(): void

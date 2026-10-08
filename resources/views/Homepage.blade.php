@@ -56,7 +56,7 @@
                     <!-- Cta Box Item Start -->
                     <div class="cta-box-item wow fadeInUp">
                         <div class="icon-box">
-                            <img src="images/icon-cta-phone.svg" alt="">
+                            <img src="{{ asset('assets/images/icon-cta-phone.svg') }}" alt="">
                         </div>
                         <div class="cta-box-content">
                             <h3>Un besoin? une urgence dentaire?</h3>
@@ -70,7 +70,7 @@
                 <div class="col-lg-4 col-md-6 col-12">
                     <div class="cta-box-item wow fadeInUp" data-wow-delay="0.25s">
                         <div class="icon-box">
-                            <img src="images/icon-cta-time.svg" alt="">
+                            <img src="{{ asset('assets/images/icon-cta-time.svg') }}" alt="">
                         </div>
                         <div class="cta-box-content">
                             <h3>Heures d'ouverture</h3>
@@ -148,7 +148,7 @@
 
                         <!-- About Us Footer Start -->
                         <div class="about-us-footer wow fadeInUp" data-wow-delay="0.75s">
-                            <a href="{{ route('team') }}" class="btn-default">Notre Equipe</a>
+                            <a href="{{ route('team') }}" class="btn-default btn-secondary">Notre Equipe</a>
                         </div>
                         <!-- About Us Footer End -->
                     </div>
@@ -239,7 +239,7 @@
                     <div class="services-box-footer wow fadeInUp" data-wow-delay="1s">
                         <p>Nous croyons en l'utilisation des technologies et des techniques les plus récentes pour garantir
                             les meilleurs résultats à nos patients.</p>
-                        <a href="{{ route('service.index') }}" class="btn-default">Voir tout nos services</a>
+                        <a href="{{ route('service.index') }}" class="btn-default btn-secondary">Voir tout nos services</a>
                     </div>
                     <!-- Service Box Footer End -->
                 </div>
@@ -265,7 +265,7 @@
 
                                 <!-- Visit Clinic Btn Start -->
                                 <div class="visit-clinic-btn wow fadeInUp" data-wow-delay="0.25s" data-cursor-text="Voir">
-                                    <a href="{{ route('visite-cabinet') }}" class="btn-default">Visite du Cabinet</a>
+                                    <a href="{{ route('visite-cabinet') }}" class="btn-default btn-secondary">Visite du Cabinet</a>
                                 </div>
                             </div>
                         </div>
@@ -282,7 +282,7 @@
 
         <!-- Icon Start Image Start -->
         <div class="icon-star-image">
-            <img src="images/icon-star.svg" alt="">
+            <img src="{{ asset('assets/images/icon-star.svg') }}" alt="">
         </div>
         <!-- Icon Start Image End -->
     </div>
@@ -433,7 +433,7 @@
         </div>
         <!-- Icon Start Image Start -->
         <div class="icon-star-image">
-            <img src="images/icon-star.svg" alt="">
+            <img src="{{ asset('assets/images/icon-star.svg') }}" alt="">
         </div>
         <!-- Icon Start Image End -->
     </div>
@@ -549,7 +549,7 @@
 
                         <!-- Footer Appointment Button Start  -->
                         <div class="contact-appointment-btn wow fadeInUp" data-wow-delay="1s">
-                            <a href="https://www.doctolib.fr/cabinet-dentaire/breteuil/cabinet-dentaire-de-l-abbaye-de-breteuil" target="_blank" class="btn-default">Prendre un rendez-vous</a>
+                            <a href="https://www.doctolib.fr/cabinet-dentaire/breteuil/cabinet-dentaire-de-l-abbaye-de-breteuil" target="_blank" class="btn-default btn-secondary">Prendre un rendez-vous</a>
                         </div>
                         <!-- Footer Appointment Button End  -->
                     </div>

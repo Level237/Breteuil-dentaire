@@ -29,5 +29,8 @@
         <env name="SESSION_DRIVER" value="array"/>
         <env name="FILESYSTEM_DISK" value="public"/>
         <env name="TELESCOPE_ENABLED" value="false"/>
+        <env name="ADMIN_LOGIN_URI" value="test-admin-gate"/>
+        <env name="ADMIN_LOGIN_MAX_ATTEMPTS" value="5"/>
+        <env name="ADMIN_LOGIN_DECAY_SECONDS" value="900"/>
     </php>
 </phpunit>

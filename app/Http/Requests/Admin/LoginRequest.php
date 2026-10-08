@@ -28,7 +28,7 @@ class LoginRequest extends FormRequest
         $this->ensureIsNotRateLimited();
 
         if (! auth()->attempt($this->only('email', 'password'), $this->boolean('remember'))) {
-            RateLimiter::hit($this->throttleKey());
+            RateLimiter::hit($this->throttleKey(), (int) config('admin.login_decay_seconds', 900));
 
             throw ValidationException::withMessages([
                 'email' => 'Ces identifiants ne correspondent pas à un compte administrateur.',
@@ -40,7 +40,7 @@ class LoginRequest extends FormRequest
 
     public function ensureIsNotRateLimited(): void
     {
-        if (! RateLimiter::tooManyAttempts($this->throttleKey(), 5)) {
+        if (! RateLimiter::tooManyAttempts($this->throttleKey(), (int) config('admin.login_max_attempts', 5))) {
             return;
         }
 

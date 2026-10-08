@@ -65,12 +65,19 @@ Route::get('/services/{slug}', [ServiceController::class, 'show'])
     ->name('service.show');
 Route::get('/',[HomeController::class,'homepage'])->name('homepage');
 
-Route::prefix('admin')->name('admin.')->group(function () {
-    Route::middleware('guest')->group(function () {
-        Route::get('login', [AuthController::class, 'create'])->name('login');
-        Route::post('login', [AuthController::class, 'store'])->middleware('throttle:5,1')->name('login.store');
-    });
+$adminLoginUri = trim((string) config('admin.login_uri'), '/');
 
+if ($adminLoginUri !== '' && $adminLoginUri !== 'admin' && ! str_starts_with($adminLoginUri, 'admin/')) {
+    Route::middleware('guest')->group(function () use ($adminLoginUri) {
+        Route::get($adminLoginUri, [AuthController::class, 'create'])
+            ->name('admin.login');
+        Route::post($adminLoginUri, [AuthController::class, 'store'])
+            ->middleware('throttle:admin-login')
+            ->name('admin.login.store');
+    });
+}
+
+Route::prefix('admin')->name('admin.')->group(function () {
     Route::middleware(['auth', 'admin'])->group(function () {
         Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
         Route::post('logout', [AuthController::class, 'destroy'])->name('logout');

@@ -24,6 +24,7 @@ class AdminDashboardViewTest extends TestCase
             ->assertSee('Dr Dassie')
             ->assertSee('Galeries')
             ->assertSee('Personnel')
-            ->assertSee('État du cabinet');
+            ->assertSee('État du cabinet')
+            ->assertDontSee('Back-Office');
     }
 }

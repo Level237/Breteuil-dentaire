@@ -27,7 +27,7 @@ class AdminGalleryTest extends TestCase
     public function test_guest_cannot_open_gallery_admin(): void
     {
         $this->get(route('admin.galeries.index'))
-            ->assertRedirect(route('admin.login'));
+            ->assertNotFound();
     }
 
     public function test_admin_can_create_gallery_image_with_alt(): void

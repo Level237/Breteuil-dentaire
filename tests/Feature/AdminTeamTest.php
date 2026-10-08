@@ -27,7 +27,7 @@ class AdminTeamTest extends TestCase
     public function test_guest_cannot_open_personnel_admin(): void
     {
         $this->get(route('admin.personnel.index'))
-            ->assertRedirect(route('admin.login'));
+            ->assertNotFound();
     }
 
     public function test_admin_can_view_personnel_list(): void
